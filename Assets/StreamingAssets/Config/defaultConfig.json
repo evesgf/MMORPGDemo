@@ -1,0 +1,10 @@
+{
+	"name": "defalutConfig",
+	"version": "0.0.1",
+	"classItem": [{
+		"className": "课程名",
+		"creatorName": "创建者",
+		"domain": "适用领域",
+		"classLevel": "适用班级"
+	}]
+}
