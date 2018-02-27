@@ -24,6 +24,6 @@ public class HomePage : UIPage
 
     private void OnPlay()
     {
-        UIManager.Instance.OpenPage(UIDef.ListPage);
+        //UIManager.Instance.OpenPage(UIDef.ListPage);
     }
 }

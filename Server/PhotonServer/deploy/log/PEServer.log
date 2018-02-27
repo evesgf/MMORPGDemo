@@ -1,0 +1,649 @@
+﻿2017-11-20 18:58:55,301 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PEServer; AppPath=E:\Dev\PhotonExample\PhotonServer\deploy\PEServer, Type=PEServer.ServerEntry 
+2017-11-20 18:59:36,436 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PEServer
+2017-11-20 18:59:36,441 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=PEServer
+2017-11-22 11:33:26,541 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PEServer; AppPath=E:\Dev\PhotonExample\PhotonServer\deploy\PEServer, Type=PEServer.ServerEntry 
+2017-11-22 15:22:37,104 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PEServer
+2017-11-22 15:22:37,149 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=PEServer
+2017-11-22 20:04:48,897 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PEServer; AppPath=E:\Dev\PhotonExample\PhotonServer\deploy\PEServer, Type=PEServer.ServerEntry 
+2017-11-22 20:05:04,486 [13] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:0,ip:127.0.0.1:63407, Data: F3-02-00-00-02-50-62-0A-00-73-00-23-7B-22-55-73-65-72-4E-61-6D-65-22-3A-22-31-32-33-22-2C-22-50-61-73-73-77-6F-72-64-22-3A-22-32-33-34-22-7D,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:05:07,173 [13] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:0,ip:127.0.0.1:63407, Data: F3-02-00-00-02-50-62-0A-00-73-00-23-7B-22-55-73-65-72-4E-61-6D-65-22-3A-22-31-32-33-22-2C-22-50-61-73-73-77-6F-72-64-22-3A-22-32-33-34-22-7D,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:05:07,571 [12] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:0,ip:127.0.0.1:63407, Data: F3-02-00-00-02-50-62-0A-00-73-00-23-7B-22-55-73-65-72-4E-61-6D-65-22-3A-22-31-32-33-22-2C-22-50-61-73-73-77-6F-72-64-22-3A-22-32-33-34-22-7D,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:05:16,297 [12] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:0,ip:127.0.0.1:63407, Data: F3-02-00-00-02-50-62-0A-00-73-00-23-7B-22-55-73-65-72-4E-61-6D-65-22-3A-22-31-32-33-22-2C-22-50-61-73-73-77-6F-72-64-22-3A-22-32-33-34-22-7D,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:05:16,512 [13] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:0,ip:127.0.0.1:63407, Data: F3-02-00-00-02-50-62-0A-00-73-00-23-7B-22-55-73-65-72-4E-61-6D-65-22-3A-22-31-32-33-22-2C-22-50-61-73-73-77-6F-72-64-22-3A-22-32-33-34-22-7D,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:05:16,695 [10] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:0,ip:127.0.0.1:63407, Data: F3-02-00-00-02-50-62-0A-00-73-00-23-7B-22-55-73-65-72-4E-61-6D-65-22-3A-22-31-32-33-22-2C-22-50-61-73-73-77-6F-72-64-22-3A-22-32-33-34-22-7D,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:05:45,495 [11] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:0,ip:127.0.0.1:63407, Data: F3-02-00-00-02-50-62-0A-00-73-00-23-7B-22-55-73-65-72-4E-61-6D-65-22-3A-22-31-32-33-22-2C-22-50-61-73-73-77-6F-72-64-22-3A-22-32-33-34-22-7D,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:05:46,003 [12] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:0,ip:127.0.0.1:63407, Data: F3-02-00-00-02-50-62-0A-00-73-00-23-7B-22-55-73-65-72-4E-61-6D-65-22-3A-22-31-32-33-22-2C-22-50-61-73-73-77-6F-72-64-22-3A-22-32-33-34-22-7D,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:06:17,428 [12] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 29
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-22 20:15:53,401 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PEServer
+2017-11-22 20:15:53,437 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=PEServer
+2017-11-22 20:19:12,690 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PEServer; AppPath=E:\Dev\PhotonExample\PhotonServer\deploy\PEServer, Type=PEServer.ServerEntry 
+2017-11-22 20:19:36,724 [12] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:0,ip:127.0.0.1:61367, Data: F3-02-00-00-02-50-62-0A-00-73-00-23-7B-22-55-73-65-72-4E-61-6D-65-22-3A-22-31-32-33-22-2C-22-50-61-73-73-77-6F-72-64-22-3A-22-32-33-34-22-7D,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:19:39,074 [11] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:0,ip:127.0.0.1:61367, Data: F3-02-00-00-02-50-62-0A-00-73-00-23-7B-22-55-73-65-72-4E-61-6D-65-22-3A-22-31-32-33-22-2C-22-50-61-73-73-77-6F-72-64-22-3A-22-32-33-34-22-7D,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:20:11,559 [12] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 29
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-22 20:21:16,719 [13] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:1,ip:127.0.0.1:56911, Data: F3-02-00-00-02-50-62-0A-00-73-00-23-7B-22-55-73-65-72-4E-61-6D-65-22-3A-22-31-32-33-22-2C-22-50-61-73-73-77-6F-72-64-22-3A-22-32-33-34-22-7D,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:21:25,371 [13] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:1,ip:127.0.0.1:56911, Data: F3-02-00-00-02-50-62-0A-00-73-00-23-7B-22-55-73-65-72-4E-61-6D-65-22-3A-22-31-32-33-22-2C-22-50-61-73-73-77-6F-72-64-22-3A-22-32-33-34-22-7D,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:21:25,835 [10] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:1,ip:127.0.0.1:56911, Data: F3-02-00-00-02-50-62-0A-00-73-00-23-7B-22-55-73-65-72-4E-61-6D-65-22-3A-22-31-32-33-22-2C-22-50-61-73-73-77-6F-72-64-22-3A-22-32-33-34-22-7D,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:21:26,034 [12] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:1,ip:127.0.0.1:56911, Data: F3-02-00-00-02-50-62-0A-00-73-00-23-7B-22-55-73-65-72-4E-61-6D-65-22-3A-22-31-32-33-22-2C-22-50-61-73-73-77-6F-72-64-22-3A-22-32-33-34-22-7D,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:21:26,216 [10] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:1,ip:127.0.0.1:56911, Data: F3-02-00-00-02-50-62-0A-00-73-00-23-7B-22-55-73-65-72-4E-61-6D-65-22-3A-22-31-32-33-22-2C-22-50-61-73-73-77-6F-72-64-22-3A-22-32-33-34-22-7D,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:21:26,349 [12] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:1,ip:127.0.0.1:56911, Data: F3-02-00-00-02-50-62-0A-00-73-00-23-7B-22-55-73-65-72-4E-61-6D-65-22-3A-22-31-32-33-22-2C-22-50-61-73-73-77-6F-72-64-22-3A-22-32-33-34-22-7D,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:21:45,271 [13] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:1,ip:127.0.0.1:56911, Data: F3-02-00-00-02-50-62-0A-00-73-00-23-7B-22-55-73-65-72-4E-61-6D-65-22-3A-22-31-32-33-22-2C-22-50-61-73-73-77-6F-72-64-22-3A-22-32-33-34-22-7D,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:21:47,473 [10] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 29
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-22 20:22:41,094 [12] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 29
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-22 20:22:54,015 [13] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 29
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-22 20:23:17,232 [13] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:4,ip:127.0.0.1:51770, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-34-35-36,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:23:46,539 [12] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:4,ip:127.0.0.1:51770, Data: F3-02-00-00-02-50-62-0A-00-73-00-23-7B-22-55-73-65-72-4E-61-6D-65-22-3A-22-31-32-33-22-2C-22-50-61-73-73-77-6F-72-64-22-3A-22-32-33-34-22-7D,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:23:47,345 [13] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:4,ip:127.0.0.1:51770, Data: F3-02-00-00-02-50-62-0A-00-73-00-23-7B-22-55-73-65-72-4E-61-6D-65-22-3A-22-31-32-33-22-2C-22-50-61-73-73-77-6F-72-64-22-3A-22-32-33-34-22-7D,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:24:00,163 [11] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 29
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-22 20:36:32,954 [12] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:5,ip:127.0.0.1:62291, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:37:02,442 [12] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 29
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-22 20:39:46,256 [13] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:6,ip:127.0.0.1:54321, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:39:46,952 [12] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:6,ip:127.0.0.1:54321, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:39:47,133 [11] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:6,ip:127.0.0.1:54321, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:39:47,349 [6] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:6,ip:127.0.0.1:54321, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:39:47,531 [12] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:6,ip:127.0.0.1:54321, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:39:47,713 [11] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:6,ip:127.0.0.1:54321, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:39:49,540 [12] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:6,ip:127.0.0.1:54321, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:39:49,788 [10] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:6,ip:127.0.0.1:54321, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:39:50,036 [6] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:6,ip:127.0.0.1:54321, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:39:50,218 [12] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:6,ip:127.0.0.1:54321, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:39:50,417 [11] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:6,ip:127.0.0.1:54321, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:39:50,632 [13] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:6,ip:127.0.0.1:54321, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:39:50,831 [11] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:6,ip:127.0.0.1:54321, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:39:51,030 [12] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:6,ip:127.0.0.1:54321, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:39:51,279 [10] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:6,ip:127.0.0.1:54321, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:39:51,461 [11] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:6,ip:127.0.0.1:54321, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:40:21,957 [10] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 29
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-22 20:40:43,721 [11] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:7,ip:127.0.0.1:63871, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:40:44,668 [10] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:7,ip:127.0.0.1:63871, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:40:44,950 [11] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:7,ip:127.0.0.1:63871, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:40:50,555 [10] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:7,ip:127.0.0.1:63871, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:40:50,853 [6] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:7,ip:127.0.0.1:63871, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:40:51,068 [10] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:7,ip:127.0.0.1:63871, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:41:21,175 [13] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 29
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-22 20:42:34,247 [11] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 29
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-22 20:42:44,451 [10] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:9,ip:127.0.0.1:53961, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:42:59,298 [6] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:9,ip:127.0.0.1:53961, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:42:59,529 [13] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:9,ip:127.0.0.1:53961, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:42:59,744 [12] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:9,ip:127.0.0.1:53961, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:42:59,927 [6] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:9,ip:127.0.0.1:53961, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:43:00,092 [11] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:9,ip:127.0.0.1:53961, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:43:00,291 [12] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:9,ip:127.0.0.1:53961, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:43:00,772 [6] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:9,ip:127.0.0.1:53961, Data: F3-02-00-00-03-50-62-01-00-73-00-03-31-32-33-01-73-00-03-32-33-34,
+Exception:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 45
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-22 20:43:30,283 [6] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 29
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-22 20:44:43,849 [15] INFO  PEServer.ServerEntry - [Server Setup]
+2017-11-22 20:44:43,865 [15] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PEServer; AppPath=E:\Dev\PhotonExample\PhotonServer\deploy\PEServer, Type=PEServer.ServerEntry 
+2017-11-22 20:44:43,889 [15] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PEServer
+2017-11-22 20:44:43,892 [15] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=PEServer
+2017-11-22 20:48:11,909 [12] INFO  PEServer.ServerEntry - [--------]0_______1
+2017-11-22 20:48:24,116 [11] INFO  PEServer.ServerEntry - [--------]0_______1
+2017-11-22 20:48:30,329 [12] INFO  PEServer.ServerEntry - [--------]0_______10
+2017-11-22 20:48:39,275 [10] INFO  PEServer.ServerEntry - [--------]0_______1
+2017-11-22 20:49:55,590 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PEServer
+2017-11-22 20:49:55,613 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=PEServer
+2017-11-22 20:53:42,232 [1] INFO  PEServer.ServerEntry - [Server Setup]
+2017-11-22 20:53:42,245 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PEServer; AppPath=E:\Dev\PhotonExample\PhotonServer\deploy\PEServer, Type=PEServer.ServerEntry 
+2017-11-23 11:56:50,405 [1] INFO  PEServer.ServerEntry - [Server Setup]
+2017-11-23 11:56:50,431 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PEServer; AppPath=E:\Dev\PhotonExample\PhotonServer\deploy\PEServer, Type=PEServer.ServerEntry 
+2017-11-23 11:57:29,018 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PEServer
+2017-11-23 11:57:29,040 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=PEServer
+2017-11-23 11:58:10,354 [1] INFO  PEServer.ServerEntry - [Server Setup]
+2017-11-23 11:58:10,369 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PEServer; AppPath=E:\Dev\PhotonExample\PhotonServer\deploy\PEServer, Type=PEServer.ServerEntry 
+2017-11-23 13:24:41,346 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PEServer
+2017-11-23 13:24:41,356 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=PEServer
+2017-11-24 14:10:05,328 [1] INFO  PEServer.ServerEntry - [Server Setup]
+2017-11-24 14:10:05,359 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PEServer; AppPath=E:\Dev\PhotonExample\PhotonServer\deploy\PEServer, Type=PEServer.ServerEntry 
+2017-11-24 14:11:08,955 [10] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:18:30,608 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PEServer
+2017-11-24 14:18:30,617 [13] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:18:30,620 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=PEServer
+2017-11-24 14:18:38,988 [1] INFO  PEServer.ServerEntry - [Server Setup]
+2017-11-24 14:18:38,999 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PEServer; AppPath=E:\Dev\PhotonExample\PhotonServer\deploy\PEServer, Type=PEServer.ServerEntry 
+2017-11-24 14:20:35,524 [10] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:21:10,112 [14] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:25:24,573 [14] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:25:34,729 [12] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:26:19,314 [13] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:27:59,867 [14] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:28:05,983 [10] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:31:15,572 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PEServer
+2017-11-24 14:31:15,573 [14] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:31:15,577 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=PEServer
+2017-11-24 14:31:44,932 [1] INFO  PEServer.ServerEntry - [Server Setup]
+2017-11-24 14:31:44,944 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PEServer; AppPath=E:\Dev\PhotonExample\PhotonServer\deploy\PEServer, Type=PEServer.ServerEntry 
+2017-11-24 14:31:44,986 [11] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.Peers.ManagedPeer.<>c__DisplayClass5.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__4() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\Peers\ManagedPeer.cs:行号 106
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:33:13,223 [14] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:33:57,929 [13] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:34:37,286 [14] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:34:59,474 [11] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:35:26,669 [14] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:36:23,914 [13] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:37:43,608 [13] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:37:56,676 [10] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:38:28,365 [11] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:38:35,646 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PEServer
+2017-11-24 14:38:35,651 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=PEServer
+2017-11-24 14:38:54,309 [1] INFO  PEServer.ServerEntry - [Server Setup]
+2017-11-24 14:38:54,324 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PEServer; AppPath=E:\Dev\PhotonExample\PhotonServer\deploy\PEServer, Type=PEServer.ServerEntry 
+2017-11-24 14:40:03,321 [8] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:40:38,474 [13] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:41:03,795 [8] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:43:18,692 [14] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:43:43,420 [14] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:43:58,682 [13] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:49:46,053 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PEServer
+2017-11-24 14:49:46,055 [14] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 14:49:46,059 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=PEServer
+2017-11-24 14:49:58,432 [1] INFO  PEServer.ServerEntry - [Server Setup]
+2017-11-24 14:49:58,445 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PEServer; AppPath=E:\Dev\PhotonExample\PhotonServer\deploy\PEServer, Type=PEServer.ServerEntry 
+2017-11-24 14:50:14,725 [14] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.NotImplementedException: 未实现该方法或操作。
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 25
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-24 16:44:01,530 [9] INFO  PEServer.ServerEntry - [Server Setup]
+2017-11-24 16:44:01,543 [9] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PEServer; AppPath=E:\Dev\PhotonExample\PhotonServer\deploy\PEServer, Type=PEServer.ServerEntry 
+2017-11-24 16:44:01,553 [9] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PEServer
+2017-11-24 16:44:01,555 [9] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=PEServer
+2017-11-24 20:04:32,355 [10] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 ExitGames.Threading.SynchronizedDictionary`2.get_Item(TKey key) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\SynchronizedDictionary.cs:行号 173
+   在 PEServer.Cache.PlayerCache.OffLine(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Cache\PlayerCache.cs:行号 72
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 28
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-25 16:39:10,792 [1] INFO  PEServer.ServerEntry - [Server Setup]
+2017-11-25 16:39:10,875 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PEServer; AppPath=E:\Dev\PhotonExample\PhotonServer\deploy\PEServer, Type=PEServer.ServerEntry 
+2017-11-25 16:40:40,692 [11] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 PEServer.Cache.MatchRoomCache.LeaveMath(PEClient client, Int32 playerId) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Cache\MatchRoomCache.cs:行号 89
+   在 PEServer.Cache.MatchRoomCache.Offline(PEClient client, Int32 playerId) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Cache\MatchRoomCache.cs:行号 144
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 33
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-25 16:43:27,406 [10] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 ExitGames.Threading.SynchronizedDictionary`2.get_Item(TKey key) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\SynchronizedDictionary.cs:行号 173
+   在 PEServer.Cache.PlayerCache.GetId(PEClient clinet) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Cache\PlayerCache.cs:行号 70
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 33
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-25 16:43:37,070 [14] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 ExitGames.Threading.SynchronizedDictionary`2.get_Item(TKey key) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\SynchronizedDictionary.cs:行号 173
+   在 PEServer.Cache.PlayerCache.GetId(PEClient clinet) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Cache\PlayerCache.cs:行号 70
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 33
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-25 16:44:34,583 [14] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 ExitGames.Threading.SynchronizedDictionary`2.get_Item(TKey key) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\SynchronizedDictionary.cs:行号 173
+   在 PEServer.Cache.PlayerCache.GetId(PEClient clinet) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Cache\PlayerCache.cs:行号 70
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 33
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-25 16:44:40,490 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PEServer
+2017-11-25 16:44:40,536 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=PEServer
+2017-11-25 16:44:49,733 [1] INFO  PEServer.ServerEntry - [Server Setup]
+2017-11-25 16:44:49,747 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PEServer; AppPath=E:\Dev\PhotonExample\PhotonServer\deploy\PEServer, Type=PEServer.ServerEntry 
+2017-11-25 16:45:43,851 [13] ERROR Photon.SocketServer.PeerBase - exception during handling of data.Peer:T:PEClient,ConnId:2,ip:127.0.0.1:52787, Data: F3-02-01-00-02-50-62-07-00-69-00-00-00-00,
+Exception:System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 ExitGames.Threading.SynchronizedDictionary`2.get_Item(TKey key) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\SynchronizedDictionary.cs:行号 173
+   在 PEServer.Cache.PlayerCache.GetId(PEClient clinet) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Cache\PlayerCache.cs:行号 70
+   在 PEServer.Logic.PlayerHandler.OnStartMatch(PEClient client, Int32 playerId) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 81
+   在 PEServer.Logic.PlayerHandler.OnRequest(PEClient client, Byte subCode, OperationRequest request) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 58
+   在 PEServer.PEClient.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 53
+   在 Photon.SocketServer.PeerBase.OnReceive(Byte[] data, SendParameters sendParameters) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1243
+   在 Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 988
+2017-11-25 16:46:13,054 [11] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 ExitGames.Threading.SynchronizedDictionary`2.get_Item(TKey key) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\SynchronizedDictionary.cs:行号 173
+   在 PEServer.Cache.PlayerCache.GetId(PEClient clinet) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Cache\PlayerCache.cs:行号 70
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 33
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-25 16:46:47,930 [11] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)
+   在 PEServer.Cache.MatchRoomCache.LeaveMath(PEClient client, Int32 playerId) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Cache\MatchRoomCache.cs:行号 89
+   在 PEServer.Cache.MatchRoomCache.Offline(PEClient client, Int32 playerId) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Cache\MatchRoomCache.cs:行号 144
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 33
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-25 16:47:00,534 [13] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 ExitGames.Threading.SynchronizedDictionary`2.get_Item(TKey key) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\SynchronizedDictionary.cs:行号 173
+   在 PEServer.Cache.PlayerCache.GetId(PEClient clinet) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Cache\PlayerCache.cs:行号 70
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 33
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-25 16:47:31,372 [10] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 ExitGames.Threading.SynchronizedDictionary`2.get_Item(TKey key) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\SynchronizedDictionary.cs:行号 173
+   在 PEServer.Cache.PlayerCache.GetId(PEClient clinet) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Cache\PlayerCache.cs:行号 70
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 33
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111
+2017-11-25 16:48:27,875 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PEServer
+2017-11-25 16:48:27,880 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=PEServer
+2017-11-25 16:48:50,238 [1] INFO  PEServer.ServerEntry - [Server Setup]
+2017-11-25 16:48:50,251 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PEServer; AppPath=E:\Dev\PhotonExample\PhotonServer\deploy\PEServer, Type=PEServer.ServerEntry 
+2017-11-25 16:57:47,983 [14] ERROR ExitGames.Threading.FailSafeBatchExecutor - System.Collections.Generic.KeyNotFoundException: 给定关键字不在字典中。
+   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 ExitGames.Threading.SynchronizedDictionary`2.get_Item(TKey key) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\SynchronizedDictionary.cs:行号 173
+   在 PEServer.Cache.PlayerCache.GetId(PEClient clinet) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Cache\PlayerCache.cs:行号 70
+   在 PEServer.Logic.PlayerHandler.OnDisconnect(PEClient client) 位置 E:\Dev\PhotonExample\PEServer\PEServer\Logic\PlayerHandler.cs:行号 33
+   在 PEServer.PEClient.OnDisconnect(DisconnectReason reasonCode, String reasonDetail) 位置 E:\Dev\PhotonExample\PEServer\PEServer\PEClient.cs:行号 32
+   在 Photon.SocketServer.PeerBase.OnApplicationDisconnect(DisconnectReason reasonCode, String reasonDetail, Int32 rtt, Int32 rttVariance, Int32 numFailures) 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 1039
+   在 Photon.SocketServer.PeerBase.<>c__DisplayClass2.<Photon.SocketServer.IManagedPeer.Application_OnDisconnect>b__1() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\PeerBase.cs:行号 874
+   在 ExitGames.Threading.FailSafeBatchExecutor.Execute(Action action) 位置 c:\(Work)\(EG)\exitgames-libs\src\Core\Threading\FailSafeBatchExecutor.cs:行号 111

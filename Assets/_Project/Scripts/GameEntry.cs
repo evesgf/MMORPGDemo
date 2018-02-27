@@ -9,7 +9,6 @@ namespace LarkFramework.GameEntry
         private void InitCustomComponents()
         {
             UIManager.Instance.MainPage = UIDef.HomePage;
-            TickManager.Instance.Init();
 
             //Config
             ConfigManager.Create().Init();

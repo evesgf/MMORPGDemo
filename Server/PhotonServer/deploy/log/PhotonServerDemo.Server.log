@@ -1,0 +1,15 @@
+2018-02-27 19:24:49,896 [1] INFO  PhotonServerDemo.ServerEntry - [Log]Init Completed!
+2018-02-27 19:24:49,913 [1] INFO  PhotonServerDemo.ServerEntry - [Server]Setup Completed!
+2018-02-27 19:24:49,914 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PhotonServerDemo; AppPath=E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo, Type=PhotonServerDemo.ServerEntry 
+2018-02-27 19:25:05,858 [13] INFO  PhotonServerDemo.ServerEntry - [Peer]Link Start!
+2018-02-27 19:25:20,116 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PhotonServerDemo
+2018-02-27 19:25:20,125 [12] ERROR Photon.SocketServer.ApplicationBase - System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   在 System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   在 PhotonServerDemo.Threads.SyncPositionThread.UpdatePosition() 位置 E:\Dev\LarkFramework_V2\Server\ServerDemo\PhotonServerDemo\Threads\SyncPositionThread.cs:行号 37
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-02-27 19:25:20,231 [1] INFO  PhotonServerDemo.ServerEntry - [Server]TearDown Completed!
+2018-02-27 19:25:20,231 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=PhotonServerDemo

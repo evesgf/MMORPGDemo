@@ -1,0 +1,122 @@
+﻿2017-03-16 21:42:11,883 [14] INFO  ChatRoom.MyServer - ******** Server Start ********
+2017-03-16 21:42:11,899 [14] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ChatRoom; AppPath=E:\Project\PhotonServer\PhotonServer\deploy\ChatRoom, Type=ChatRoom.MyServer 
+﻿2017-03-16 21:42:11,916 [14] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ChatRoom
+2017-03-16 21:42:11,941 [14] INFO  ChatRoom.MyServer - ******** Server ShutDown ********
+2017-03-16 21:42:11,943 [14] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ChatRoom
+2017-03-16 21:42:34,186 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ChatRoom
+2017-03-16 21:42:34,198 [1] INFO  ChatRoom.MyServer - ******** Server ShutDown ********
+2017-03-16 21:42:34,199 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ChatRoom
+2017-03-16 21:43:06,249 [1] INFO  ChatRoom.MyServer - ******** Server Start ********
+2017-03-16 21:43:06,264 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ChatRoom; AppPath=E:\Project\PhotonServer\PhotonServer\deploy\ChatRoom, Type=ChatRoom.MyServer 
+2017-03-16 22:06:08,297 [15] INFO  ChatRoom.MyServer - ******** Server Start ********
+2017-03-16 22:06:08,323 [15] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ChatRoom; AppPath=E:\Project\PhotonServer\PhotonServer\deploy\ChatRoom, Type=ChatRoom.MyServer 
+2017-03-16 22:06:08,342 [15] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ChatRoom
+2017-03-16 22:06:08,349 [15] INFO  ChatRoom.MyServer - ******** Server ShutDown ********
+2017-03-16 22:06:08,350 [15] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ChatRoom
+2017-03-16 22:09:25,269 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ChatRoom
+2017-03-16 22:09:25,284 [1] INFO  ChatRoom.MyServer - ******** Server ShutDown ********
+2017-03-16 22:09:25,285 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ChatRoom
+2017-03-16 22:09:31,207 [1] INFO  ChatRoom.MyServer - ******** Server Start ********
+2017-03-16 22:09:31,227 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ChatRoom; AppPath=E:\Project\PhotonServer\PhotonServer\deploy\ChatRoom, Type=ChatRoom.MyServer 
+2017-03-16 22:12:49,526 [10] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-16 22:13:02,006 [13] INFO  ChatRoom.MyServer - 客户端下线
+2017-03-16 22:20:08,438 [14] INFO  ChatRoom.MyServer - ******** Server Start ********
+2017-03-16 22:20:08,461 [14] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ChatRoom; AppPath=E:\Project\PhotonServer\PhotonServer\deploy\ChatRoom, Type=ChatRoom.MyServer 
+2017-03-16 22:20:08,479 [14] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ChatRoom
+2017-03-16 22:20:08,481 [14] INFO  ChatRoom.MyServer - ******** Server ShutDown ********
+2017-03-16 22:20:08,482 [14] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ChatRoom
+2017-03-16 22:20:17,143 [10] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-16 22:20:24,605 [13] INFO  ChatRoom.MyServer - 客户端发起请求
+2017-03-16 22:20:24,608 [13] INFO  ChatRoom.MyServer - asd
+2017-03-16 22:20:55,067 [10] INFO  ChatRoom.MyServer - 客户端下线
+2017-03-16 22:22:48,000 [14] INFO  ChatRoom.MyServer - ******** Server Start ********
+2017-03-16 22:22:48,047 [14] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ChatRoom; AppPath=E:\Project\PhotonServer\PhotonServer\deploy\ChatRoom, Type=ChatRoom.MyServer 
+2017-03-16 22:22:48,076 [14] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ChatRoom
+2017-03-16 22:22:48,079 [14] INFO  ChatRoom.MyServer - ******** Server ShutDown ********
+2017-03-16 22:22:48,080 [14] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ChatRoom
+2017-03-16 22:22:49,803 [12] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-16 22:22:50,115 [11] INFO  ChatRoom.MyServer - 客户端下线
+2017-03-16 22:22:56,395 [11] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-16 22:22:57,671 [4] INFO  ChatRoom.MyServer - 客户端发起请求
+2017-03-16 22:22:57,672 [4] INFO  ChatRoom.MyServer - asd
+2017-03-16 22:23:38,095 [11] INFO  ChatRoom.MyServer - 客户端下线
+2017-03-16 23:20:06,332 [15] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-16 23:20:07,009 [12] INFO  ChatRoom.MyServer - 客户端下线
+2017-03-29 13:57:41,578 [1] INFO  ChatRoom.MyServer - ******** Server Start ********
+2017-03-29 13:57:41,589 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ChatRoom; AppPath=E:\Dev\PhotonServer\PhotonServer\deploy\ChatRoom, Type=ChatRoom.MyServer 
+2017-03-29 13:57:56,615 [15] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-29 13:58:00,685 [11] INFO  ChatRoom.MyServer - 客户端发起请求
+2017-03-29 13:58:00,686 [11] INFO  ChatRoom.MyServer - Hello World
+2017-03-29 13:58:02,976 [14] INFO  ChatRoom.MyServer - 客户端发起请求
+2017-03-29 13:58:02,976 [14] INFO  ChatRoom.MyServer - Hello World
+2017-03-29 13:58:04,981 [13] INFO  ChatRoom.MyServer - 客户端发起请求
+2017-03-29 13:58:04,981 [13] INFO  ChatRoom.MyServer - Hello World
+2017-03-29 13:58:08,552 [11] INFO  ChatRoom.MyServer - 客户端下线
+2017-03-29 17:32:46,650 [8] INFO  ChatRoom.MyServer - ******** Server Start ********
+2017-03-29 17:32:46,673 [8] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ChatRoom; AppPath=E:\Dev\PhotonServer\PhotonServer\deploy\ChatRoom, Type=ChatRoom.MyServer 
+2017-03-29 17:32:46,682 [8] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ChatRoom
+2017-03-29 17:32:46,684 [8] INFO  ChatRoom.MyServer - ******** Server ShutDown ********
+2017-03-29 17:32:46,685 [8] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ChatRoom
+2017-03-29 19:34:14,525 [11] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-29 19:34:40,269 [15] INFO  ChatRoom.MyServer - 客户端下线
+2017-03-29 19:35:57,551 [10] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-29 19:36:00,719 [13] INFO  ChatRoom.MyServer - 客户端发起请求
+2017-03-29 19:36:00,719 [13] INFO  ChatRoom.MyServer - {"userName":"123","passWord":"456"}
+2017-03-29 19:36:32,872 [14] INFO  ChatRoom.MyServer - 客户端下线
+2017-03-29 19:36:35,139 [15] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-29 19:36:35,624 [11] INFO  ChatRoom.MyServer - 客户端下线
+2017-03-29 19:40:06,999 [8] INFO  ChatRoom.MyServer - ******** Server Start ********
+2017-03-29 19:40:07,012 [8] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ChatRoom; AppPath=E:\Dev\PhotonServer\PhotonServer\deploy\ChatRoom, Type=ChatRoom.MyServer 
+2017-03-29 19:40:07,022 [8] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ChatRoom
+2017-03-29 19:40:07,024 [8] INFO  ChatRoom.MyServer - ******** Server ShutDown ********
+2017-03-29 19:40:07,024 [8] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ChatRoom
+2017-03-29 19:40:10,343 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ChatRoom
+2017-03-29 19:40:10,349 [1] INFO  ChatRoom.MyServer - ******** Server ShutDown ********
+2017-03-29 19:40:10,349 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ChatRoom
+2017-03-29 19:40:24,417 [1] INFO  ChatRoom.MyServer - ******** Server Start ********
+2017-03-29 19:40:24,430 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ChatRoom; AppPath=E:\Dev\PhotonServer\PhotonServer\deploy\ChatRoom, Type=ChatRoom.MyServer 
+2017-03-29 19:40:27,283 [15] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-29 19:40:29,172 [14] INFO  ChatRoom.MyServer - 客户端发起请求
+2017-03-29 19:40:29,173 [14] INFO  ChatRoom.MyServer - {"userName":"123","passWord":"456"}
+2017-03-29 19:40:43,824 [13] INFO  ChatRoom.MyServer - 客户端下线
+2017-03-29 19:41:30,559 [10] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-29 19:41:32,377 [11] INFO  ChatRoom.MyServer - 客户端发起请求
+2017-03-29 19:41:32,378 [11] INFO  ChatRoom.MyServer - {"userName":"123","passWord":"456"}
+2017-03-29 19:42:04,057 [10] INFO  ChatRoom.MyServer - 客户端下线
+2017-03-29 19:42:05,825 [13] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-29 19:42:06,363 [14] INFO  ChatRoom.MyServer - 客户端下线
+2017-03-29 19:42:10,063 [10] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-29 19:42:10,857 [12] INFO  ChatRoom.MyServer - 客户端发起请求
+2017-03-29 19:42:10,858 [12] INFO  ChatRoom.MyServer - {"userName":"123","passWord":"456"}
+2017-03-29 19:42:38,026 [11] INFO  ChatRoom.MyServer - 客户端下线
+2017-03-29 19:42:58,856 [14] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-29 19:42:59,715 [15] INFO  ChatRoom.MyServer - 客户端下线
+2017-03-29 19:43:04,519 [13] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-29 19:43:23,096 [13] INFO  ChatRoom.MyServer - 客户端下线
+2017-03-29 19:43:26,075 [13] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-29 19:43:27,503 [15] INFO  ChatRoom.MyServer - 客户端下线
+2017-03-29 19:43:32,994 [11] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-29 19:43:59,261 [15] INFO  ChatRoom.MyServer - 客户端下线
+2017-03-29 19:49:00,464 [12] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-29 19:49:02,191 [14] INFO  ChatRoom.MyServer - 客户端下线
+2017-03-29 19:50:26,900 [12] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-29 19:50:28,685 [12] INFO  ChatRoom.MyServer - 客户端发起请求
+2017-03-29 19:50:28,686 [12] INFO  ChatRoom.MyServer - {"userName":"123","passWord":"456"}
+2017-03-29 19:51:43,541 [12] INFO  ChatRoom.MyServer - 客户端下线
+2017-03-29 19:52:30,446 [15] INFO  ChatRoom.MyServer - 客户端上线
+2017-03-29 19:52:32,427 [11] INFO  ChatRoom.MyServer - 客户端发起请求
+2017-03-29 19:52:32,428 [11] INFO  ChatRoom.MyServer - {"userName":"123","passWord":"456"}
+2017-03-29 19:52:40,925 [13] INFO  ChatRoom.MyServer - 客户端下线
+2017-04-18 18:57:14,116 [1] INFO  ChatRoom.MyServer - ******** Server Start ********
+2017-04-18 18:57:14,146 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=ChatRoom; AppPath=E:\Dev\PhotonServer\PhotonServer\deploy\ChatRoom, Type=ChatRoom.MyServer 
+2017-04-18 18:57:32,483 [13] INFO  ChatRoom.MyServer - 客户端上线
+2017-04-18 18:58:08,219 [12] INFO  ChatRoom.MyServer - 客户端下线
+2017-04-18 18:58:12,099 [15] INFO  ChatRoom.MyServer - 客户端上线
+2017-04-18 18:58:16,896 [10] INFO  ChatRoom.MyServer - 客户端下线
+2017-04-18 18:58:19,270 [11] INFO  ChatRoom.MyServer - 客户端上线
+2017-04-18 18:58:54,524 [15] INFO  ChatRoom.MyServer - 客户端下线
+2017-04-18 18:59:00,897 [10] INFO  ChatRoom.MyServer - 客户端上线
+2017-04-18 18:59:11,050 [12] INFO  ChatRoom.MyServer - 客户端下线
+2017-04-18 19:01:32,222 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=ChatRoom
+2017-04-18 19:01:32,247 [1] INFO  ChatRoom.MyServer - ******** Server ShutDown ********
+2017-04-18 19:01:32,247 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=ChatRoom
