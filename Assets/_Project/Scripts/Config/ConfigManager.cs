@@ -11,9 +11,13 @@ public class ConfigManager : SingletonMono<ConfigManager>
     public const string LOG_TAG = "[ConfigManager]";
     public string defaultConfigPath = "defalutConfig";
 
-    public void Init()
+    /// <summary>
+    /// 需要实例化的所有config
+    /// </summary>
+    /// <param name="configs"></param>
+    public void Init(string[] configPaths)
     {
-        ConfigRes.InitDefalutConfig();
+        ConfigRes.InitConfigs(configPaths);
 
         Debuger.Log(LOG_TAG + "Init Finished!");
     }
@@ -24,9 +28,9 @@ public class ConfigManager : SingletonMono<ConfigManager>
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <returns></returns>
-    public T LoadConfig<T>() where T:class
+    public T LoadConfig<T>(string configPath) where T:class
     {
-        return ConfigRes.LoadConfig<T>();
+        return ConfigRes.LoadConfig<T>(configPath);
     }
 
     /// <summary>

@@ -4,13 +4,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using ExitGames.Client.Photon;
+using Common;
+using LarkFramework;
+using LarkFramework.Net;
 
 public class LoginPage : UIPage
 {
+    public InputField input_UserName;
+    public InputField input_PassWord;
+
     public Button btn_Login;
     public Button btn_Register;
 
     public Button btn_Exit;
+
+    private LoginRequest loginRequest;
 
     public override void Open(object arg = null)
     {
@@ -19,6 +28,8 @@ public class LoginPage : UIPage
         btn_Login.onClick.AddListener(OnLogin);
         btn_Register.onClick.AddListener(OnRegister);
         btn_Exit.onClick.AddListener(OnExit);
+
+        loginRequest = GetComponent<LoginRequest>();
     }
 
     public override void Close(object arg = null)
@@ -32,12 +43,31 @@ public class LoginPage : UIPage
 
     private void OnLogin()
     {
-        ProcedureManager.Instance.ChangeProcedure<ProcedureHome>();
+        loginRequest.userName = input_UserName.text;
+        loginRequest.passWord = input_PassWord.text;
+        loginRequest.DefaultRequest();
+    }
+
+    public void OnLoginResponse(ReturnCode returnCode)
+    {
+        if (returnCode == ReturnCode.Success)
+        {
+            Close();
+            ProcedureManager.Instance.ChangeProcedure<ProcedureHome>();
+        }
     }
 
     private void OnRegister()
     {
 
+    }
+
+    public void OnRegisterResponse(ReturnCode returnCode)
+    {
+        if (returnCode == ReturnCode.Success)
+        {
+
+        }
     }
 
     private void OnExit()

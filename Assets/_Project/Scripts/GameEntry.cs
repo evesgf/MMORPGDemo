@@ -11,9 +11,9 @@ namespace LarkFramework.GameEntry
             UIManager.Instance.MainPage = UIDef.HomePage;
 
             //Config
-            ConfigManager.Create().Init();
+            ConfigManager.Create().Init(new string[] { ConfigDef.ConfigData});
 
-            var a = ConfigManager.Instance.LoadConfig<ConfigData>();
+            var a = ConfigManager.Instance.LoadConfig<ConfigData>(ConfigDef.ConfigData);
 
             PhotonManager.Create().Init();
         }

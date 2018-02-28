@@ -1185,3 +1185,181 @@ System.Threading.ThreadAbortException: 正在中止线程。
    在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
    在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
    在 System.Threading.ThreadHelper.ThreadStart()
+2018-02-28 20:43:05,601 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2018-02-28 20:43:05,623 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2018-02-28 20:43:05,625 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2018-02-28 20:43:06,137 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2018-02-28 20:43:07,360 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'PhotonServerDemo' , assemblyName = 'PhotonServerDemo'
+2018-02-28 20:43:07,361 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy'
+2018-02-28 20:43:07,362 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo\bin;bin_Win64;Shared;'
+2018-02-28 20:43:07,362 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo\bin\PhotonServerDemo.dll.config'
+2018-02-28 20:43:07,363 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo\bin\Cache'
+2018-02-28 20:43:07,628 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo'
+2018-02-28 20:43:07,629 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo\bin'
+2018-02-28 20:43:07,630 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy'
+2018-02-28 20:43:07,631 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\bin_Win64\log'
+2018-02-28 20:43:07,664 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: PhotonServerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/PhotonServerDemo.DLL
+2018-02-28 20:43:07,665 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2018-02-28 20:43:07,700 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/Photon.SocketServer.DLL
+2018-02-28 20:43:07,740 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/ExitGamesLibs.DLL
+2018-02-28 20:43:07,792 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/Common.DLL
+2018-02-28 20:43:07,803 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'PhotonServerDemo', assemblyName = 'PhotonServerDemo', typeName = 'PhotonServerDemo.ServerEntry'
+2018-02-28 20:43:07,846 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'PhotonServerDemo', DomainId='2' -- calling Application.Setup
+2018-02-28 20:43:07,885 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/ExitGames.Logging.Log4Net.DLL
+2018-02-28 20:43:08,093 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2018-02-28 20:43:08,301 [12] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: LitJson, Version=0.9.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/LitJson.DLL
+2018-02-28 21:35:26,150 [19] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'PhotonServerDemo' , assemblyName = 'PhotonServerDemo'
+2018-02-28 21:35:26,156 [19] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy'
+2018-02-28 21:35:26,157 [19] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo\bin;bin_Win64;Shared;'
+2018-02-28 21:35:26,159 [19] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo\bin\PhotonServerDemo.dll.config'
+2018-02-28 21:35:26,160 [19] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo\bin\Cache'
+2018-02-28 21:35:26,400 [19] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo'
+2018-02-28 21:35:26,401 [19] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo\bin'
+2018-02-28 21:35:26,401 [19] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy'
+2018-02-28 21:35:26,402 [19] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\bin_Win64\log'
+2018-02-28 21:35:26,416 [19] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: PhotonServerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/PhotonServerDemo.DLL
+2018-02-28 21:35:26,418 [19] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2018-02-28 21:35:26,479 [19] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/Photon.SocketServer.DLL
+2018-02-28 21:35:26,501 [19] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/ExitGamesLibs.DLL
+2018-02-28 21:35:26,511 [19] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/Common.DLL
+2018-02-28 21:35:26,517 [19] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'PhotonServerDemo', assemblyName = 'PhotonServerDemo', typeName = 'PhotonServerDemo.ServerEntry'
+2018-02-28 21:35:26,519 [19] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'PhotonServerDemo', DomainId='3' -- calling Application.Setup
+2018-02-28 21:35:26,549 [19] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/ExitGames.Logging.Log4Net.DLL
+2018-02-28 21:35:26,670 [19] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'PhotonServerDemo', DomainId='2' -- calling Application.OnStopRequested()
+2018-02-28 21:35:26,672 [19] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'PhotonServerDemo', DomainId='2' -- calling Application.TearDown()
+2018-02-28 21:35:26,753 [12] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Transactions.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089 from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Transactions.resources/v4.0_4.0.0.0_zh-Hans_b77a5c561934e089/System.Transactions.resources.dll
+2018-02-28 21:35:26,755 [12] INFO  PhotonHostRuntime.PhotonDomainManager - ResourceResolveHandler: ApplicationName = 'PhotonServerDemo', DomainId='2', args.Name='Resources.zh-Hans.resources'
+2018-02-28 21:35:26,771 [12] ERROR PhotonHostRuntime.PhotonDomainManager - UnhandledException: 
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   在 System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   在 PhotonServerDemo.Threads.SyncPositionThread.UpdatePosition() 位置 E:\Dev\LarkFramework_V2\Server\ServerDemo\PhotonServerDemo\Threads\SyncPositionThread.cs:行号 37
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-02-28 21:35:26,910 [20] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: LitJson, Version=0.9.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/LitJson.DLL
+2018-02-28 21:35:28,696 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'PhotonServerDemo', DomainId='3' -- calling Application.OnStopRequested()
+2018-02-28 21:35:28,726 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2018-02-28 21:35:28,728 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'PhotonServerDemo', DomainId='3' -- calling Application.TearDown()
+2018-02-28 21:35:28,848 [20] ERROR PhotonHostRuntime.PhotonDomainManager - UnhandledException: 
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   在 System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   在 PhotonServerDemo.Threads.SyncPositionThread.UpdatePosition() 位置 E:\Dev\MMORPGDemo\Server\ServerDemo\PhotonServerDemo\Threads\SyncPositionThread.cs:行号 37
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-02-28 21:36:23,213 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2018-02-28 21:36:23,229 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2018-02-28 21:36:23,231 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2018-02-28 21:36:23,754 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2018-02-28 21:36:25,425 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'PhotonServerDemo' , assemblyName = 'PhotonServerDemo'
+2018-02-28 21:36:25,428 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy'
+2018-02-28 21:36:25,429 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo\bin;bin_Win64;Shared;'
+2018-02-28 21:36:25,429 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo\bin\PhotonServerDemo.dll.config'
+2018-02-28 21:36:25,430 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo\bin\Cache'
+2018-02-28 21:36:25,509 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo'
+2018-02-28 21:36:25,510 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo\bin'
+2018-02-28 21:36:25,511 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy'
+2018-02-28 21:36:25,511 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\bin_Win64\log'
+2018-02-28 21:36:25,531 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: PhotonServerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/PhotonServerDemo.DLL
+2018-02-28 21:36:25,532 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2018-02-28 21:36:25,543 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/Photon.SocketServer.DLL
+2018-02-28 21:36:25,554 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/ExitGamesLibs.DLL
+2018-02-28 21:36:25,571 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/Common.DLL
+2018-02-28 21:36:25,576 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'PhotonServerDemo', assemblyName = 'PhotonServerDemo', typeName = 'PhotonServerDemo.ServerEntry'
+2018-02-28 21:36:25,599 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'PhotonServerDemo', DomainId='2' -- calling Application.Setup
+2018-02-28 21:36:25,610 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/ExitGames.Logging.Log4Net.DLL
+2018-02-28 21:36:25,707 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2018-02-28 21:36:25,934 [12] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: LitJson, Version=0.9.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/LitJson.DLL
+2018-02-28 21:36:36,940 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/EntityFramework.DLL
+2018-02-28 21:36:36,979 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: MySql.Data.Entity.EF6, Version=6.9.11.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/MySql.Data.Entity.EF6.DLL
+2018-02-28 21:36:37,099 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: MySql.Data, Version=6.9.11.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/MySql.Data.DLL
+2018-02-28 21:36:37,122 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_64/System.Data/v4.0_4.0.0.0__b77a5c561934e089/System.Data.dll
+2018-02-28 21:36:37,177 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/EntityFramework.SqlServer.DLL
+2018-02-28 21:36:37,215 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_64/System.Transactions/v4.0_4.0.0.0__b77a5c561934e089/System.Transactions.dll
+2018-02-28 21:36:37,250 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.ComponentModel.DataAnnotations/v4.0_4.0.0.0__31bf3856ad364e35/System.ComponentModel.DataAnnotations.dll
+2018-02-28 21:36:37,281 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_64/System.EnterpriseServices/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.EnterpriseServices.dll
+2018-02-28 21:36:37,333 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Management/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Management.dll
+2018-02-28 21:36:37,501 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Xml.Linq/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.Linq.dll
+2018-02-28 21:36:38,045 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Numerics/v4.0_4.0.0.0__b77a5c561934e089/System.Numerics.dll
+2018-02-28 21:36:38,127 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Runtime.Serialization/v4.0_4.0.0.0__b77a5c561934e089/System.Runtime.Serialization.dll
+2018-02-28 21:36:39,123 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'PhotonServerDemo', DomainId='2', args.Name='EntityFramework.resources, Version=6.0.0.0, Culture=zh-CN, PublicKeyToken=b77a5c561934e089'
+2018-02-28 21:36:39,124 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'PhotonServerDemo', DomainId='2', args.Name='EntityFramework.resources, Version=6.0.0.0, Culture=zh-CN, PublicKeyToken=b77a5c561934e089'
+2018-02-28 21:36:39,126 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'PhotonServerDemo', DomainId='2', args.Name='EntityFramework.resources, Version=6.0.0.0, Culture=zh-CHS, PublicKeyToken=b77a5c561934e089'
+2018-02-28 21:36:39,126 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'PhotonServerDemo', DomainId='2', args.Name='EntityFramework.resources, Version=6.0.0.0, Culture=zh-CHS, PublicKeyToken=b77a5c561934e089'
+2018-02-28 21:36:39,128 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'PhotonServerDemo', DomainId='2', args.Name='EntityFramework.resources, Version=6.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089'
+2018-02-28 21:36:39,128 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'PhotonServerDemo', DomainId='2', args.Name='EntityFramework.resources, Version=6.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089'
+2018-02-28 21:36:39,130 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'PhotonServerDemo', DomainId='2', args.Name='EntityFramework.resources, Version=6.0.0.0, Culture=zh, PublicKeyToken=b77a5c561934e089'
+2018-02-28 21:36:39,130 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'PhotonServerDemo', DomainId='2', args.Name='EntityFramework.resources, Version=6.0.0.0, Culture=zh, PublicKeyToken=b77a5c561934e089'
+2018-02-28 21:39:32,321 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'PhotonServerDemo', DomainId='2' -- calling Application.OnStopRequested()
+2018-02-28 21:39:32,323 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2018-02-28 21:39:32,325 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'PhotonServerDemo', DomainId='2' -- calling Application.TearDown()
+2018-02-28 21:39:32,352 [12] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Transactions.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089 from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Transactions.resources/v4.0_4.0.0.0_zh-Hans_b77a5c561934e089/System.Transactions.resources.dll
+2018-02-28 21:39:32,353 [12] INFO  PhotonHostRuntime.PhotonDomainManager - ResourceResolveHandler: ApplicationName = 'PhotonServerDemo', DomainId='2', args.Name='Resources.zh-Hans.resources'
+2018-02-28 21:39:32,360 [12] ERROR PhotonHostRuntime.PhotonDomainManager - UnhandledException: 
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   在 System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   在 PhotonServerDemo.Threads.SyncPositionThread.UpdatePosition() 位置 E:\Dev\MMORPGDemo\Server\ServerDemo\PhotonServerDemo\Threads\SyncPositionThread.cs:行号 37
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-02-28 21:39:42,273 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2018-02-28 21:39:42,288 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2018-02-28 21:39:42,290 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2018-02-28 21:39:42,744 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2018-02-28 21:39:43,975 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'MMoDemo' , assemblyName = 'Photon.MmoDemo.Server'
+2018-02-28 21:39:43,977 [ 1] ERROR PhotonHostRuntime.PhotonDomainManager - CreateDomain
+System.Exception: Can't find Photon.MmoDemo.Server.dll in  or E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\MmoDemo\bin
+   在 PhotonHostRuntime.PhotonDomainManager.PhotonDefaultAppDomainBehavior.CreateAppDomain(String name, String assemblyName, String baseDirectoryRaw, String applicationRootDirectoryRaw, String applicationDirectoryRaw, String sharedDirectoryRaw, String applicationSharedDirectoryRaw, Boolean enableShadowCopy, Boolean createPerInstanceShadowCopyCaches, String instanceName)
+   在 PhotonHostRuntime.PhotonDomainManager.CreateAppDomain(String name, String assemblyName, String baseDirectoryRaw, String applicationRootDirectoryRaw, String applicationDirectoryRaw, String sharedDirectoryRaw, String applicationSharedDirectoryRaw, Boolean enableShadowCopy, Boolean createPerInstanceShadowCopyCaches, String instanceName)
+2018-02-28 21:39:43,987 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2018-02-28 21:39:51,725 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2018-02-28 21:39:51,741 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2018-02-28 21:39:51,743 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2018-02-28 21:39:52,274 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2018-02-28 21:39:53,495 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'PhotonServerDemo' , assemblyName = 'PhotonServerDemo'
+2018-02-28 21:39:53,497 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy'
+2018-02-28 21:39:53,497 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo\bin;bin_Win64;Shared;'
+2018-02-28 21:39:53,498 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo\bin\PhotonServerDemo.dll.config'
+2018-02-28 21:39:53,498 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo\bin\Cache'
+2018-02-28 21:39:53,563 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo'
+2018-02-28 21:39:53,564 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo\bin'
+2018-02-28 21:39:53,565 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy'
+2018-02-28 21:39:53,566 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\bin_Win64\log'
+2018-02-28 21:39:53,583 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: PhotonServerDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/PhotonServerDemo.DLL
+2018-02-28 21:39:53,583 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2018-02-28 21:39:53,595 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/Photon.SocketServer.DLL
+2018-02-28 21:39:53,606 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/ExitGamesLibs.DLL
+2018-02-28 21:39:53,619 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/Common.DLL
+2018-02-28 21:39:53,624 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'PhotonServerDemo', assemblyName = 'PhotonServerDemo', typeName = 'PhotonServerDemo.ServerEntry'
+2018-02-28 21:39:53,646 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'PhotonServerDemo', DomainId='2' -- calling Application.Setup
+2018-02-28 21:39:53,657 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/ExitGames.Logging.Log4Net.DLL
+2018-02-28 21:39:53,754 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2018-02-28 21:40:06,913 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/EntityFramework.DLL
+2018-02-28 21:40:06,965 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: MySql.Data.Entity.EF6, Version=6.9.11.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/MySql.Data.Entity.EF6.DLL
+2018-02-28 21:40:07,048 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: MySql.Data, Version=6.9.11.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/MySql.Data.DLL
+2018-02-28 21:40:07,060 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_64/System.Data/v4.0_4.0.0.0__b77a5c561934e089/System.Data.dll
+2018-02-28 21:40:07,152 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///E:/Dev/MMORPGDemo/Server/PhotonServer/deploy/PhotonServerDemo/bin/EntityFramework.SqlServer.DLL
+2018-02-28 21:40:07,193 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_64/System.Transactions/v4.0_4.0.0.0__b77a5c561934e089/System.Transactions.dll
+2018-02-28 21:40:07,244 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.ComponentModel.DataAnnotations/v4.0_4.0.0.0__31bf3856ad364e35/System.ComponentModel.DataAnnotations.dll
+2018-02-28 21:40:07,287 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_64/System.EnterpriseServices/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.EnterpriseServices.dll
+2018-02-28 21:40:07,339 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Management/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Management.dll
+2018-02-28 21:40:07,496 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Xml.Linq/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.Linq.dll
+2018-02-28 21:40:08,027 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Numerics/v4.0_4.0.0.0__b77a5c561934e089/System.Numerics.dll
+2018-02-28 21:40:08,109 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 from file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Runtime.Serialization/v4.0_4.0.0.0__b77a5c561934e089/System.Runtime.Serialization.dll
+2018-02-28 21:40:09,117 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'PhotonServerDemo', DomainId='2', args.Name='EntityFramework.resources, Version=6.0.0.0, Culture=zh-CN, PublicKeyToken=b77a5c561934e089'
+2018-02-28 21:40:09,118 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'PhotonServerDemo', DomainId='2', args.Name='EntityFramework.resources, Version=6.0.0.0, Culture=zh-CN, PublicKeyToken=b77a5c561934e089'
+2018-02-28 21:40:09,120 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'PhotonServerDemo', DomainId='2', args.Name='EntityFramework.resources, Version=6.0.0.0, Culture=zh-CHS, PublicKeyToken=b77a5c561934e089'
+2018-02-28 21:40:09,120 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'PhotonServerDemo', DomainId='2', args.Name='EntityFramework.resources, Version=6.0.0.0, Culture=zh-CHS, PublicKeyToken=b77a5c561934e089'
+2018-02-28 21:40:09,122 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'PhotonServerDemo', DomainId='2', args.Name='EntityFramework.resources, Version=6.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089'
+2018-02-28 21:40:09,122 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'PhotonServerDemo', DomainId='2', args.Name='EntityFramework.resources, Version=6.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089'
+2018-02-28 21:40:09,124 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'PhotonServerDemo', DomainId='2', args.Name='EntityFramework.resources, Version=6.0.0.0, Culture=zh, PublicKeyToken=b77a5c561934e089'
+2018-02-28 21:40:09,124 [13] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'PhotonServerDemo', DomainId='2', args.Name='EntityFramework.resources, Version=6.0.0.0, Culture=zh, PublicKeyToken=b77a5c561934e089'
+2018-02-28 21:40:23,967 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'PhotonServerDemo', DomainId='2' -- calling Application.OnStopRequested()
+2018-02-28 21:40:23,969 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2018-02-28 21:40:23,971 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'PhotonServerDemo', DomainId='2' -- calling Application.TearDown()

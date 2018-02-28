@@ -67,7 +67,7 @@ namespace PhotonServerDemo
 
             InitHnadler();
 
-            syncPositionThread.Run();
+            //syncPositionThread.Run();
 
             log.Info("[Server]Setup Completed!");
         }
@@ -93,17 +93,17 @@ namespace PhotonServerDemo
             DefaultHandler defaultHandler = new DefaultHandler();
             dict_Handler.Add(defaultHandler.opCode, defaultHandler);
 
-            SyncPositionHandler syncPositionHandler = new SyncPositionHandler();
-            dict_Handler.Add(syncPositionHandler.opCode, syncPositionHandler);
+            //SyncPositionHandler syncPositionHandler = new SyncPositionHandler();
+            //dict_Handler.Add(syncPositionHandler.opCode, syncPositionHandler);
 
-            SyncPlayerHandler syncPlayerHandler = new SyncPlayerHandler();
-            dict_Handler.Add(syncPlayerHandler.opCode, syncPlayerHandler);
+            //SyncPlayerHandler syncPlayerHandler = new SyncPlayerHandler();
+            //dict_Handler.Add(syncPlayerHandler.opCode, syncPlayerHandler);
 
-            DamageHandler damageHandler = new DamageHandler();
-            dict_Handler.Add(damageHandler.opCode, damageHandler);
+            //DamageHandler damageHandler = new DamageHandler();
+            //dict_Handler.Add(damageHandler.opCode, damageHandler);
 
-            SkillHandler skillHandler = new SkillHandler();
-            dict_Handler.Add(skillHandler.opCode, skillHandler);
+            //SkillHandler skillHandler = new SkillHandler();
+            //dict_Handler.Add(skillHandler.opCode, skillHandler);
         }
     }
 }
