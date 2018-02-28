@@ -17,6 +17,11 @@ namespace LarkFramework.Net
 
         public string loginUserName;
 
+        [Header("--------采用debug登录模式--------")]
+        public bool debugLogin;
+        public string d_UserName;
+        public string d_PassWord;
+
         //连接方式
         public ConnectionProtocol connectionProtocol = ConnectionProtocol.Udp;
 
@@ -63,7 +68,18 @@ namespace LarkFramework.Net
             TickManager.Instance.m_TickComponent.onUpdate += OnUpdate;
 
             this.Log(LOG_TAG + "Init Finished");
+
+            OnDebugLogin();
         }
+
+        #region Debug Login
+        private void OnDebugLogin()
+        {
+            if (!debugLogin) return;
+
+            this.Log(LOG_TAG + "Debug Login Access!");
+        }
+        #endregion
 
         /// <summary>
         /// Update轮询
