@@ -15,7 +15,7 @@ namespace LarkFramework.Net
         public string port;                     //服务器端口号
         public string applicationName;          //服务器应用名
 
-        public string loginUserName;
+        public int loginUserId;                 //当前登录用户的Id
 
         [Header("--------采用debug登录模式--------")]
         public bool debugLogin;
@@ -68,14 +68,18 @@ namespace LarkFramework.Net
             TickManager.Instance.m_TickComponent.onUpdate += OnUpdate;
 
             this.Log(LOG_TAG + "Init Finished");
-
-            OnDebugLogin();
         }
 
         #region Debug Login
         private void OnDebugLogin()
         {
             if (!debugLogin) return;
+
+            var re=GetComponent<LoginRequest>();
+            re.userName = d_UserName;
+            re.passWord = d_PassWord;
+            re.isDebugLogin = true;
+            re.DefaultRequest();
 
             this.Log(LOG_TAG + "Debug Login Access!");
         }
@@ -155,6 +159,10 @@ namespace LarkFramework.Net
         public void OnStatusChanged(StatusCode statusCode)
         {
             Debug.Log(statusCode);
+            if (statusCode == StatusCode.Connect)
+            {
+                OnDebugLogin();
+            }
         }
         #endregion
     }

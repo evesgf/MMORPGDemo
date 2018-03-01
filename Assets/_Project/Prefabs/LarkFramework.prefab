@@ -123,6 +123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4520815277486290}
   - component: {fileID: 114160567644084204}
+  - component: {fileID: 114526851022367490}
   m_Layer: 0
   m_Name: PhotonComponent
   m_TagString: Untagged
@@ -333,7 +334,7 @@ MonoBehaviour:
   - ProcedureHome
   - ProcedureLogin
   - ProcedureSplash
-  m_EntranceProcedureTypeName: ProcedureSplash
+  m_EntranceProcedureTypeName: ProcedureHome
 --- !u!114 &114102499825982638
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -390,7 +391,10 @@ MonoBehaviour:
   ipAddress: 127.0.0.1
   port: 5055
   applicationName: PhotonServerDemo
-  loginUserName: 
+  loginUserId: 0
+  debugLogin: 1
+  d_UserName: admin
+  d_PassWord: 123456
   connectionProtocol: 0
 --- !u!114 &114191929109728710
 MonoBehaviour:
@@ -467,6 +471,20 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+--- !u!114 &114526851022367490
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1597934936993980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8309c151b997fff48a3365604eb76fb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  opCode: 1
+  userName: 
+  passWord: 
 --- !u!114 &114539730560562048
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -1,57 +1,12 @@
-2018-02-28 20:43:08,034 [1] INFO  PhotonServerDemo.ServerEntry - [Log]Init Completed!
-2018-02-28 20:43:08,058 [1] INFO  PhotonServerDemo.ServerEntry - [Server]Setup Completed!
-2018-02-28 20:43:08,065 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PhotonServerDemo; AppPath=E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo, Type=PhotonServerDemo.ServerEntry 
-2018-02-28 20:43:52,382 [11] INFO  PhotonServerDemo.ServerEntry - [Peer]Link Start!
-2018-02-28 21:26:07,789 [10] INFO  PhotonServerDemo.ServerEntry - [Peer]Link Start!
-2018-02-28 21:26:22,310 [13] INFO  PhotonServerDemo.ServerEntry - [Peer]Link Start!
-2018-02-28 21:27:21,044 [11] INFO  PhotonServerDemo.ServerEntry - [Peer]Link Start!
-2018-02-28 21:28:40,981 [13] INFO  PhotonServerDemo.ServerEntry - [Peer]Link Start!
-2018-02-28 21:30:25,818 [17] INFO  PhotonServerDemo.ServerEntry - [Peer]Link Start!
-2018-02-28 21:32:32,747 [17] INFO  PhotonServerDemo.ServerEntry - [Peer]Link Start!
-2018-02-28 21:34:58,345 [10] INFO  PhotonServerDemo.ServerEntry - [Peer]Link Start!
-2018-02-28 21:35:26,672 [19] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PhotonServerDemo
-2018-02-28 21:35:26,679 [12] ERROR Photon.SocketServer.ApplicationBase - System.Threading.ThreadAbortException: 正在中止线程。
-   在 System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
-   在 System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
-   在 PhotonServerDemo.Threads.SyncPositionThread.UpdatePosition() 位置 E:\Dev\LarkFramework_V2\Server\ServerDemo\PhotonServerDemo\Threads\SyncPositionThread.cs:行号 37
-   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   在 System.Threading.ThreadHelper.ThreadStart()
-2018-02-28 21:35:26,790 [19] INFO  PhotonServerDemo.ServerEntry - [Server]TearDown Completed!
-2018-02-28 21:35:26,790 [19] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=PhotonServerDemo
-2018-02-28 21:35:28,698 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PhotonServerDemo
-2018-02-28 21:35:28,730 [20] ERROR Photon.SocketServer.ApplicationBase - System.Threading.ThreadAbortException: 正在中止线程。
-   在 System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
-   在 System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
-   在 PhotonServerDemo.Threads.SyncPositionThread.UpdatePosition() 位置 E:\Dev\MMORPGDemo\Server\ServerDemo\PhotonServerDemo\Threads\SyncPositionThread.cs:行号 37
-   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   在 System.Threading.ThreadHelper.ThreadStart()
-2018-02-28 21:35:28,940 [1] INFO  PhotonServerDemo.ServerEntry - [Server]TearDown Completed!
-2018-02-28 21:35:28,940 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=PhotonServerDemo
-2018-02-28 21:36:25,683 [1] INFO  PhotonServerDemo.ServerEntry - [Log]Init Completed!
-2018-02-28 21:36:25,696 [1] INFO  PhotonServerDemo.ServerEntry - [Server]Setup Completed!
-2018-02-28 21:36:25,697 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PhotonServerDemo; AppPath=E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo, Type=PhotonServerDemo.ServerEntry 
-2018-02-28 21:36:31,306 [14] INFO  PhotonServerDemo.ServerEntry - [Peer]Link Start!
-2018-02-28 21:39:32,322 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PhotonServerDemo
-2018-02-28 21:39:32,327 [12] ERROR Photon.SocketServer.ApplicationBase - System.Threading.ThreadAbortException: 正在中止线程。
-   在 System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
-   在 System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
-   在 PhotonServerDemo.Threads.SyncPositionThread.UpdatePosition() 位置 E:\Dev\MMORPGDemo\Server\ServerDemo\PhotonServerDemo\Threads\SyncPositionThread.cs:行号 37
-   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
-   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
-   在 System.Threading.ThreadHelper.ThreadStart()
-2018-02-28 21:39:32,437 [1] INFO  PhotonServerDemo.ServerEntry - [Server]TearDown Completed!
-2018-02-28 21:39:32,437 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=PhotonServerDemo
-2018-02-28 21:39:53,731 [1] INFO  PhotonServerDemo.ServerEntry - [Log]Init Completed!
-2018-02-28 21:39:53,743 [1] INFO  PhotonServerDemo.ServerEntry - [Server]Setup Completed!
-2018-02-28 21:39:53,744 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PhotonServerDemo; AppPath=E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo, Type=PhotonServerDemo.ServerEntry 
-2018-02-28 21:39:57,520 [11] INFO  PhotonServerDemo.ServerEntry - [Peer]Link Start!
-2018-02-28 21:40:23,969 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PhotonServerDemo
-2018-02-28 21:40:23,973 [1] ERROR Photon.SocketServer.ApplicationBase - System.NullReferenceException: 未将对象引用设置到对象的实例。
+2018-03-01 20:10:41,092 [1] INFO  PhotonServerDemo.ServerEntry - [Log]Init Completed!
+2018-03-01 20:10:41,106 [1] INFO  PhotonServerDemo.ServerEntry - [Server]Setup Completed!
+2018-03-01 20:10:41,107 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=PhotonServerDemo; AppPath=E:\Dev\MMORPGDemo\Server\PhotonServer\deploy\PhotonServerDemo, Type=PhotonServerDemo.ServerEntry 
+2018-03-01 20:10:45,440 [11] INFO  PhotonServerDemo.ServerEntry - [Peer]Link Start!
+2018-03-01 20:11:04,819 [11] INFO  PhotonServerDemo.ServerEntry - [Peer]Link Start!
+2018-03-01 20:12:14,085 [10] INFO  PhotonServerDemo.ServerEntry - [Peer]Link Start!
+2018-03-01 20:13:09,404 [11] INFO  PhotonServerDemo.ServerEntry - [Peer]Link Start!
+2018-03-01 20:13:46,366 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=PhotonServerDemo
+2018-03-01 20:13:46,371 [1] ERROR Photon.SocketServer.ApplicationBase - System.NullReferenceException: 未将对象引用设置到对象的实例。
    在 PhotonServerDemo.Threads.SyncPositionThread.Stop() 位置 E:\Dev\MMORPGDemo\Server\ServerDemo\PhotonServerDemo\Threads\SyncPositionThread.cs:行号 28
    在 PhotonServerDemo.ServerEntry.TearDown() 位置 E:\Dev\MMORPGDemo\Server\ServerDemo\PhotonServerDemo\ServerEntry.cs:行号 80
    在 Photon.SocketServer.ApplicationBase.PhotonHostRuntimeInterfaces.IPhotonControl.OnStop() 位置 h:\svncontent\photon-socketserver-sdk_cloud\src\Photon.SocketServer\ApplicationBase.cs:行号 1202

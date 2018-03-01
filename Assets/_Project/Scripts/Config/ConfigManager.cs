@@ -22,25 +22,27 @@ public class ConfigManager : SingletonMono<ConfigManager>
         Debuger.Log(LOG_TAG + "Init Finished!");
     }
 
-
     /// <summary>
     /// 读取配置文件
     /// </summary>
     /// <typeparam name="T"></typeparam>
+    /// <param name="configPath"></param>
+    /// <param name="useStreammingPath">从StreamingAssetPath中读取或从PersistentDataPath中读取</param>
     /// <returns></returns>
-    public T LoadConfig<T>(string configPath) where T:class
+    public T LoadConfig<T>(string configPath,bool useStreamingAssetPath) where T:class
     {
-        return ConfigRes.LoadConfig<T>(configPath);
+        return ConfigRes.LoadConfig<T>(configPath,useStreamingAssetPath);
     }
 
     /// <summary>
     /// 保存配置文件
     /// </summary>
     /// <typeparam name="T"></typeparam>
+    /// <param name="configPath"></param>
+    /// <param name="data">写入的数据</param>
     /// <returns></returns>
-    public bool SaveConfig<T>() where T : class
+    public bool SaveConfig<T>(string configPath,string data) where T : class
     {
-
-        return false;
+        return ConfigRes.SaveConfig<T>(configPath,data);
     }
 }

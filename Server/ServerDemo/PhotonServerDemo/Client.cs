@@ -14,7 +14,7 @@ namespace PhotonServerDemo
     public class Client : ClientPeer
     {
         public float x, y, z;
-        public string loginUserName;
+        public int loginUserId;
 
         public Client(InitRequest initRequest) : base(initRequest)
         {

@@ -45,10 +45,10 @@ namespace PhotonServerDemo.Threads
             List<PlayerData> playerDatatList = new List<PlayerData>();
             foreach (Client p in ServerEntry.peerList)
             {
-                if (!string.IsNullOrEmpty(p.loginUserName))
+                if (p.loginUserId!=0)
                 {
                     PlayerData playerData = new PlayerData();
-                    playerData.userName = p.loginUserName;
+                    playerData.userId = p.loginUserId;
                     playerData.pos = new Vector3Data() { x = p.x, y = p.y, z = p.z };
                     playerDatatList.Add(playerData);
                 }
@@ -59,7 +59,7 @@ namespace PhotonServerDemo.Threads
 
                 foreach (Client p1 in ServerEntry.peerList)
                 {
-                    if (!string.IsNullOrEmpty(p.loginUserName))
+                    if (p.loginUserId!=0)
                     {
                         EventData ed = new EventData((byte)EventCode.SyncPosition);
                         ed.Parameters = data;

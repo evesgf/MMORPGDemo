@@ -9,8 +9,11 @@ namespace Common
     /// </summary>
     public enum ParameterCode:byte
     {
+        UserId,
         UserName,
         passWord,
+        UserData,
+
         PositionX,
         PositionY,
         PositionZ,

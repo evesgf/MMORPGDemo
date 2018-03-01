@@ -6,6 +6,6 @@ namespace Common
     public class PlayerData
     {
         public Vector3Data pos { get; set; }
-        public string userName { get; set; }
+        public int userId { get; set; }
     }
 }

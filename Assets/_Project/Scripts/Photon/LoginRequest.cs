@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using LarkFramework;
 using UnityEngine;
 using LarkFramework.Procedure;
+using Common.Tools;
 
 public class LoginRequest : RequestBase
 {
@@ -12,12 +13,8 @@ public class LoginRequest : RequestBase
     public string userName;
     [HideInInspector]
     public string passWord;
-
-    public override void Start()
-    {
-        base.Start();
-        opCode = OperationCode.Login;
-    }
+    [HideInInspector]
+    public bool isDebugLogin;
 
     public override void DefaultRequest()
     {
@@ -33,8 +30,19 @@ public class LoginRequest : RequestBase
         Debuger.Log(returnCode);
         if (returnCode == ReturnCode.Success)
         {
-            SingletonMono<PhotonManager>.Instance.loginUserName = userName;
+            //获取参数
+            var userId = (int)DictTool.GetValue<byte, object>(operationResponse.Parameters, (byte)ParameterCode.UserId);
+            SingletonMono<PhotonManager>.Instance.loginUserId = userId;
+            Debug.Log("当前登录用户Id:"+userId);
+
+            if (!isDebugLogin)
+            {
+                GetComponent<LoginPage>().OnLoginResponse(returnCode);
+            }
         }
-        GetComponent<LoginPage>().OnLoginResponse(returnCode);
+        else
+        {
+            Debug.LogError("LoginError");
+        }
     }
 }

@@ -18,17 +18,17 @@ namespace PhotonServerDemo.Handler
 
         public override void OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters, Client peer)
         {
-            //取得所有已经登录的在线玩家用户名
-            List<string> onlineUserNameList = new List<string>();
+            //取得所有已经登录的在线玩家Id
+            List<int> onlineUserIdList = new List<int>();
             foreach (Client p in ServerEntry.peerList)
             {
-                if (!string.IsNullOrEmpty(p.loginUserName) && p != peer)
+                if (p.loginUserId!=0 && p != peer)
                 {
-                    onlineUserNameList.Add(p.loginUserName);
+                    onlineUserIdList.Add(p.loginUserId);
                 }
             }
             Dictionary<byte, object> data = new Dictionary<byte, object>();
-            data.Add((byte)ParameterCode.OnlineUserNameList, JsonMapper.ToJson(onlineUserNameList));
+            data.Add((byte)ParameterCode.OnlineUserNameList, JsonMapper.ToJson(onlineUserIdList));
             OperationResponse response = new OperationResponse(operationRequest.OperationCode);
             response.Parameters = data;
             peer.SendOperationResponse(response,sendParameters);
@@ -36,11 +36,11 @@ namespace PhotonServerDemo.Handler
             //通知其他客户端有新客户端加入
             foreach (Client p in ServerEntry.peerList)
             {
-                if (!string.IsNullOrEmpty(p.loginUserName) && p != peer)
+                if (p.loginUserId!=0 && p != peer)
                 {
                     EventData ed = new EventData((byte)EventCode.NewPlayer);
                     Dictionary<byte, object> data2 = new Dictionary<byte, object>();
-                    data2.Add((byte)ParameterCode.UserName, peer.loginUserName);
+                    data2.Add((byte)ParameterCode.UserName, peer.loginUserId);
                     ed.Parameters = data2;
                     p.SendEvent(ed, sendParameters);
                 }

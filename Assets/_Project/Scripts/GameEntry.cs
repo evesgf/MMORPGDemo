@@ -13,7 +13,7 @@ namespace LarkFramework.GameEntry
             //Config
             ConfigManager.Create().Init(new string[] { ConfigDef.ConfigData});
 
-            var a = ConfigManager.Instance.LoadConfig<ConfigData>(ConfigDef.ConfigData);
+            //var a = ConfigManager.Instance.LoadConfig<ConfigData>(ConfigDef.ConfigData,false);
 
             PhotonManager.Create().Init();
         }

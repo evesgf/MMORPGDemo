@@ -32,7 +32,12 @@ namespace PhotonServerDemo.Handler
                 if (user != null)
                 {
                     response.ReturnCode = (short)ReturnCode.Success;
-                    peer.loginUserName = userName;
+                    peer.loginUserId = user.Id;
+
+                    //回发Id
+                    Dictionary<byte, object> userData = new Dictionary<byte, object>();
+                    userData.Add((byte)ParameterCode.UserId, user.Id);
+                    response.SetParameters(userData);
                 }
                 else
                 {
