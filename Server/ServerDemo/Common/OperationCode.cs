@@ -9,6 +9,12 @@
         Default,
         Login,
         Register,
+
+        GameUser,
+        ChangeCharacter,
+
+        Chat,
+
         SyncPosition,
         SyncPlayer,
 

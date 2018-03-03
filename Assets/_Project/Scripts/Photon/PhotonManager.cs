@@ -16,14 +16,15 @@ namespace LarkFramework.Net
         public string applicationName;          //服务器应用名
 
         public int loginUserId;                 //当前登录用户的Id
+        public GameUserData gameUserData;       //玩家数据
+
+        //连接方式
+        public ConnectionProtocol connectionProtocol = ConnectionProtocol.Udp;
 
         [Header("--------采用debug登录模式--------")]
         public bool debugLogin;
         public string d_UserName;
         public string d_PassWord;
-
-        //连接方式
-        public ConnectionProtocol connectionProtocol = ConnectionProtocol.Udp;
 
         public const string LOG_TAG = "[PhotonManager]";
 
@@ -164,6 +165,7 @@ namespace LarkFramework.Net
                 OnDebugLogin();
             }
         }
+
         #endregion
     }
 }

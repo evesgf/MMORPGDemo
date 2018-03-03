@@ -1261,6 +1261,7 @@ MonoBehaviour:
   opCode: 1
   userName: 
   passWord: 
+  isDebugLogin: 0
 --- !u!114 &114893286336309490
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerDemo", "ServerDemo\ServerDemo.csproj", "{E35A4116-AA87-4914-990F-4EB643624EE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonServerDemo", "PhotonServerDemo\PhotonServerDemo.csproj", "{1C136EDF-6A75-44C2-A776-8366F70E95E0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{938DE956-2A8E-44E0-9943-EAFCD1281B5B}"
 EndProject
 Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "PhotonSocketServer", "..\PhotonServer\deploy\bin_Win64\PhotonSocketServer.exe", "{AA748D4B-2FE9-4ED4-A1CE-4AB43D004055}"
@@ -22,6 +20,8 @@ Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "PhotonSocketServer", "..\Ph
 		LaunchSQLEngine = No
 		AttachLaunchAction = No
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonServerDemo", "PhotonServerDemo\PhotonServerDemo.csproj", "{1C136EDF-6A75-44C2-A776-8366F70E95E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,14 +39,6 @@ Global
 		{E35A4116-AA87-4914-990F-4EB643624EE6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E35A4116-AA87-4914-990F-4EB643624EE6}.Release|x64.ActiveCfg = Release|Any CPU
 		{E35A4116-AA87-4914-990F-4EB643624EE6}.Release|x64.Build.0 = Release|Any CPU
-		{1C136EDF-6A75-44C2-A776-8366F70E95E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C136EDF-6A75-44C2-A776-8366F70E95E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C136EDF-6A75-44C2-A776-8366F70E95E0}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{1C136EDF-6A75-44C2-A776-8366F70E95E0}.Debug|x64.Build.0 = Debug|Any CPU
-		{1C136EDF-6A75-44C2-A776-8366F70E95E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C136EDF-6A75-44C2-A776-8366F70E95E0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1C136EDF-6A75-44C2-A776-8366F70E95E0}.Release|x64.ActiveCfg = Release|Any CPU
-		{1C136EDF-6A75-44C2-A776-8366F70E95E0}.Release|x64.Build.0 = Release|Any CPU
 		{938DE956-2A8E-44E0-9943-EAFCD1281B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{938DE956-2A8E-44E0-9943-EAFCD1281B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{938DE956-2A8E-44E0-9943-EAFCD1281B5B}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -59,6 +51,14 @@ Global
 		{AA748D4B-2FE9-4ED4-A1CE-4AB43D004055}.Debug|x64.ActiveCfg = Release|x64
 		{AA748D4B-2FE9-4ED4-A1CE-4AB43D004055}.Release|Any CPU.ActiveCfg = Release|x64
 		{AA748D4B-2FE9-4ED4-A1CE-4AB43D004055}.Release|x64.ActiveCfg = Release|x64
+		{1C136EDF-6A75-44C2-A776-8366F70E95E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C136EDF-6A75-44C2-A776-8366F70E95E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C136EDF-6A75-44C2-A776-8366F70E95E0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1C136EDF-6A75-44C2-A776-8366F70E95E0}.Debug|x64.Build.0 = Debug|Any CPU
+		{1C136EDF-6A75-44C2-A776-8366F70E95E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C136EDF-6A75-44C2-A776-8366F70E95E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C136EDF-6A75-44C2-A776-8366F70E95E0}.Release|x64.ActiveCfg = Release|Any CPU
+		{1C136EDF-6A75-44C2-A776-8366F70E95E0}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,7 +12,11 @@ namespace Common
         UserId,
         UserName,
         passWord,
-        UserData,
+
+        GameUser,
+        CharacterId,
+
+        ChatInfo,
 
         PositionX,
         PositionY,

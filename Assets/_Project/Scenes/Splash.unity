@@ -281,6 +281,21 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 540
       objectReference: {fileID: 0}
+    - target: {fileID: 114065840042725976, guid: 0a266e91b6ce17f4e84cd69274f86831,
+        type: 2}
+      propertyPath: m_EntranceProcedureTypeName
+      value: ProcedureSplash
+      objectReference: {fileID: 0}
+    - target: {fileID: 114838351263149146, guid: 0a266e91b6ce17f4e84cd69274f86831,
+        type: 2}
+      propertyPath: lanuchType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114526851022367490, guid: 0a266e91b6ce17f4e84cd69274f86831,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0a266e91b6ce17f4e84cd69274f86831, type: 2}
   m_IsPrefabParent: 0

@@ -11,5 +11,7 @@ public class UIDef  {
 
     public const string HomePage = "HomePage";
 
+    public const string CharacterPage = "CharacterPage";
+
     public const string DialogWindow = "DialogWindow";
 }

@@ -36,16 +36,20 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="ExitGames.Logging.Log4Net">
+    <Reference Include="ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\PhotonExample\PhotonServer\lib\ExitGames.Logging.Log4Net.dll</HintPath>
     </Reference>
-    <Reference Include="ExitGamesLibs">
+    <Reference Include="ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\PhotonExample\PhotonServer\lib\ExitGamesLibs.dll</HintPath>
     </Reference>
-    <Reference Include="LitJson">
+    <Reference Include="LitJson, Version=0.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\PhotonExample\DLL\LitJson.dll</HintPath>
     </Reference>
-    <Reference Include="log4net">
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\PhotonExample\PhotonServer\lib\log4net.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data, Version=6.9.11.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
@@ -54,7 +58,8 @@
     <Reference Include="MySql.Data.Entity.EF6, Version=6.9.11.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <HintPath>..\packages\MySql.Data.Entity.6.9.11\lib\net45\MySql.Data.Entity.EF6.dll</HintPath>
     </Reference>
-    <Reference Include="Photon.SocketServer">
+    <Reference Include="Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\PhotonExample\PhotonServer\lib\Photon.SocketServer.dll</HintPath>
     </Reference>
     <Reference Include="PhotonHostRuntimeInterfaces">
@@ -73,18 +78,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client.cs" />
+    <Compile Include="DLL\Game_Character.cs" />
+    <Compile Include="DLL\Game_User.cs" />
     <Compile Include="DLL\MySqlContext.cs" />
     <Compile Include="DLL\Sys_User.cs" />
+    <Compile Include="Handler\ChangeCharacterHandler.cs" />
+    <Compile Include="Handler\ChatHandler.cs" />
     <Compile Include="Handler\DamageHandler.cs" />
     <Compile Include="Handler\DefaultHandler.cs" />
+    <Compile Include="Handler\GameUserHandler.cs" />
     <Compile Include="Handler\HandlerBase.cs" />
     <Compile Include="Handler\LoginHandler.cs" />
     <Compile Include="Handler\SkillHandler.cs" />
     <Compile Include="Handler\SyncPlayerHandler.cs" />
     <Compile Include="Handler\SyncPositionHandler.cs" />
-    <Compile Include="Migrations\201802040631303_InitModel.cs" />
-    <Compile Include="Migrations\201802040631303_InitModel.Designer.cs">
-      <DependentUpon>201802040631303_InitModel.cs</DependentUpon>
+    <Compile Include="Migrations\201803031117081_InitModel.cs" />
+    <Compile Include="Migrations\201803031117081_InitModel.Designer.cs">
+      <DependentUpon>201803031117081_InitModel.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ServerEntry.cs" />
@@ -99,17 +109,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Servicce\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{938de956-2a8e-44e0-9943-eafcd1281b5b}</Project>
       <Name>Common</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Servicce\" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201802040631303_InitModel.resx">
-      <DependentUpon>201802040631303_InitModel.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201803031117081_InitModel.resx">
+      <DependentUpon>201803031117081_InitModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

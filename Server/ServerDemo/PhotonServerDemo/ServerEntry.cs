@@ -77,7 +77,7 @@ namespace PhotonServerDemo
         /// </summary>
         protected override void TearDown()
         {
-            syncPositionThread.Stop();
+            //syncPositionThread.Stop();
 
             log.Info("[Server]TearDown Completed!");
         }
@@ -87,11 +87,19 @@ namespace PhotonServerDemo
         /// </summary>
         public void InitHnadler()
         {
+            DefaultHandler defaultHandler = new DefaultHandler();
+            dict_Handler.Add(defaultHandler.opCode, defaultHandler);
+
             LoginHandler loginHandler = new LoginHandler();
             dict_Handler.Add(loginHandler.opCode, loginHandler);
 
-            DefaultHandler defaultHandler = new DefaultHandler();
-            dict_Handler.Add(defaultHandler.opCode, defaultHandler);
+            GameUserHandler gameUserHandler = new GameUserHandler();
+            dict_Handler.Add(gameUserHandler.opCode, gameUserHandler);
+
+            ChatHandler chatHandler = new ChatHandler();
+            dict_Handler.Add(chatHandler.opCode, chatHandler);
+            ChangeCharacterHandler changeCharacterHandler = new ChangeCharacterHandler();
+            dict_Handler.Add(changeCharacterHandler.opCode, changeCharacterHandler);
 
             //SyncPositionHandler syncPositionHandler = new SyncPositionHandler();
             //dict_Handler.Add(syncPositionHandler.opCode, syncPositionHandler);

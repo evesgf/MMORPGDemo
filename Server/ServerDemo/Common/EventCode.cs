@@ -9,6 +9,8 @@ namespace Common
     /// </summary>
     public enum EventCode:byte
     {
+        Chat,
+
         NewPlayer,
         SyncPosition
     }

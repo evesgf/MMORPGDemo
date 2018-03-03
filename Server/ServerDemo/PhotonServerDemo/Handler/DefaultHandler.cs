@@ -17,7 +17,7 @@ namespace PhotonServerDemo.Handler
 
         public override void OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters, Client peer)
         {
-            throw new NotImplementedException();
+            ServerEntry.log.Info(operationRequest.Parameters);
         }
     }
 }
