@@ -24,12 +24,20 @@ namespace PhotonServerDemo.Handler
             using (var db = new MySqlContext())
             {
                 var gameUser = (from v in db.Game_User
-                            where v.User.Id == userId
-                            select v).Single();
+                         join c in db.Sys_User
+                         on v.User.Id equals c.Id
+                         where v.Id == userId
+                          select v).FirstOrDefault();
 
                 OperationResponse response = new OperationResponse(operationRequest.OperationCode);
                 if (gameUser != null)
                 {
+                    var character = (from v in db.Game_Character
+                                     join c in db.Game_User
+                                     on v.Id equals c.Game_Character.Id
+                                     where c.Id == gameUser.Id
+                                     select v).FirstOrDefault();
+
                     var gameUserData = new GameUserData();
                     gameUserData.Id = gameUser.Id;
                     gameUserData.User_Id = userId;
@@ -37,6 +45,7 @@ namespace PhotonServerDemo.Handler
                     gameUserData.HeadImgPath = gameUser.HeadImgPath;
                     gameUserData.Level = gameUser.Level;
                     gameUserData.EXP = gameUser.EXP;
+                    gameUserData.GameCharacterId = character.Id;
 
                     string reJosnStr = LitJson.JsonMapper.ToJson(gameUserData);
 

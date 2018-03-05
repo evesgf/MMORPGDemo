@@ -13,5 +13,7 @@ public class UIDef  {
 
     public const string CharacterPage = "CharacterPage";
 
+    public const string MatchPage = "MatchPage";
+
     public const string DialogWindow = "DialogWindow";
 }

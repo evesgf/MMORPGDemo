@@ -31,6 +31,8 @@ public class ChangeCharacterRequest : RequestBase
             var characterId = (int)DictTool.GetValue<byte, object>(operationResponse.Parameters, (byte)ParameterCode.CharacterId);
             Debug.Log("characterId:"+ characterId);
 
+            GetComponent<CharacterPage>().ChangeAccess(characterId);
+
         }
         else
         {

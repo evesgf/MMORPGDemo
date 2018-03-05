@@ -55,7 +55,7 @@ namespace PhotonServerDemo
         {
             #region 日志初始化
             //设置日志所在路径
-            log4net.GlobalContext.Properties["Photon:ApplicationLogPath"] = Path.Combine(this.ApplicationRootPath,"log");
+            log4net.GlobalContext.Properties["Photon:ApplicationLogPath"] = Path.Combine(this.ApplicationRootPath, "log");
             FileInfo configFileInfo = new FileInfo(Path.Combine(this.BinaryPath, "log4net.config"));
             if (configFileInfo.Exists)
             {

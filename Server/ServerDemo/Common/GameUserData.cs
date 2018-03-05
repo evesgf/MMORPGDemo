@@ -18,5 +18,9 @@ namespace Common
         /// 当级经验
         /// </summary>
         public double EXP { get; set; }
+        /// <summary>
+        /// 当前选择的主角色
+        /// </summary>
+        public int GameCharacterId { get; set; }
     }
 }

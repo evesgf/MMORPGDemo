@@ -34,6 +34,22 @@ public class HomePage : UIPage
         userLevel.text = gameUserData.Level.ToString();
         exp.text = gameUserData.EXP.ToString();
         expSlider.value = (float)gameUserData.EXP / 100;
+
+        ShowCharacter(gameUserData.GameCharacterId);
+    }
+
+    private void ShowCharacter(int index)
+    {
+        var root = GameObject.Find("CharacterRoot").transform;
+
+        for (int i = 0; i < root.childCount; i++)
+        {
+            Destroy(root.GetChild(i).gameObject);
+        }
+        
+
+        var obj=Resources.Load("Character/"+index);
+        var o = Instantiate(obj, root);
     }
 
 

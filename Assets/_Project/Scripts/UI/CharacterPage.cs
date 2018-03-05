@@ -21,4 +21,18 @@ public class CharacterPage : UIPage
         GetComponent<ChangeCharacterRequest>().characterId = id;
         GetComponent<ChangeCharacterRequest>().DefaultRequest();
     }
+
+    public void ChangeAccess(int id)
+    {
+        var root = GameObject.Find("CharacterRoot").transform;
+
+        for (int i = 0; i < root.childCount; i++)
+        {
+            Destroy(root.GetChild(i).gameObject);
+        }
+
+
+        var obj = Resources.Load("Character/" + id);
+        var o = Instantiate(obj, root);
+    }
 }
