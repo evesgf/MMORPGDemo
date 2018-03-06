@@ -16,7 +16,7 @@ public class ProcedureMatch: ProcedureBase
         base.OnEnter(procedureOwner);
 
         //ScenesManager.Instance.LoadScene(SceneDef.HomeScene);
-        //UIManager.Instance.OpenPage(UIDef.HomePage);
+        UIManager.Instance.OpenPage(UIDef.MatchPage);
     }
 
     protected internal override void OnInit(IFSM<ProcedureManager> procedureOwner)

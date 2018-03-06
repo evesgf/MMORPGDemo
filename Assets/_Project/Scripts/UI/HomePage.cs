@@ -1,5 +1,6 @@
 ﻿using LarkFramework;
 using LarkFramework.Net;
+using LarkFramework.Procedure;
 using LarkFramework.UI;
 using System.Collections;
 using System.Collections.Generic;
@@ -65,7 +66,7 @@ public class HomePage : UIPage
 
     public void Play()
     {
-
+        ProcedureManager.Instance.ChangeProcedure<ProcedureMatch>();
     }
 
     public void Exit()
