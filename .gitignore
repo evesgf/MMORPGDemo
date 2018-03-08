@@ -35,3 +35,5 @@ Thumbs.db
 /output
 /Assets/LarkTools
 /Assets/LarkFramework
+/Server/PhotonServer/deploy/log
+/Server/PhotonServer/deploy/bin_Win64/log
