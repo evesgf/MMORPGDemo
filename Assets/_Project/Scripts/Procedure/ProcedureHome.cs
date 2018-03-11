@@ -14,7 +14,7 @@ public class ProcedureHome: ProcedureBase
     {
         base.OnEnter(procedureOwner);
 
-        //ScenesManager.Instance.LoadScene(SceneDef.HomeScene);
+        ScenesManager.Instance.LoadScene(SceneDef.HomeScene);
         UIManager.Instance.OpenPage(UIDef.HomePage);
     }
 

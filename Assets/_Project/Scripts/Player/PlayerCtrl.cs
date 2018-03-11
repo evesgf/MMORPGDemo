@@ -9,14 +9,24 @@ public class PlayerCtrl : MonoBehaviour {
     public float speed_walk;
     public float speed_run;
 
+    public Transform tragetRang;
+
     private AnimCtrl animCtrl;
 
     private bool isMove;
     private bool isRun;
 
+    private List<Transform> list_Empty = new List<Transform>();
+    private Transform nowTarget;
+
 	// Use this for initialization
 	void Start () {
         animCtrl = character.GetComponent<AnimCtrl>();
+
+        foreach (var item in FindObjectsOfType<EmptyCtrl>())
+        {
+            list_Empty.Add(item.transform);
+        }
     }
 	
 	// Update is called once per frame
@@ -38,9 +48,53 @@ public class PlayerCtrl : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-
+            SelectTarget();
+            UseSkill();
         }
         #endregion
+
+        ShowTarget();
+    }
+
+    private void UseSkill()
+    {
+        if (nowTarget != null)
+        {
+            GetComponent<ShootSkill>().Shoot(nowTarget.GetComponent<EmptyCtrl>().attackPos);
+        }
+    }
+
+    private void SelectTarget()
+    {
+        if (list_Empty.Count == 0) nowTarget = null;
+
+        float temp_minDis = 0;
+        for (int i=0;i<list_Empty.Count;i++)
+        {
+            var dis = Vector3.Distance(list_Empty[i].position, transform.position);
+
+            if (i == 0)
+            {
+                temp_minDis = dis;
+                nowTarget = list_Empty[i];
+                continue;
+            }
+
+            if (dis < temp_minDis)
+            {
+                temp_minDis = dis;
+                nowTarget = list_Empty[i];
+            }
+        }
+
+    }
+
+    private void ShowTarget()
+    {
+        if (nowTarget != null)
+        {
+            tragetRang.position = nowTarget.position;
+        }
     }
 
     private void Attack1()

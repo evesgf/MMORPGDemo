@@ -101,6 +101,9 @@ namespace PhotonServerDemo
             ChangeCharacterHandler changeCharacterHandler = new ChangeCharacterHandler();
             dict_Handler.Add(changeCharacterHandler.opCode, changeCharacterHandler);
 
+            StartMatchHandler matchHandler = new StartMatchHandler();
+            dict_Handler.Add(matchHandler.opCode, matchHandler);
+
             //SyncPositionHandler syncPositionHandler = new SyncPositionHandler();
             //dict_Handler.Add(syncPositionHandler.opCode, syncPositionHandler);
 

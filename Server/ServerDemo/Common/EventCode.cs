@@ -11,6 +11,8 @@ namespace Common
     {
         Chat,
 
+        StartRoomGame,
+
         NewPlayer,
         SyncPosition
     }

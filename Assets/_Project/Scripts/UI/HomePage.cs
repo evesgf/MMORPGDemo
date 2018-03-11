@@ -50,7 +50,11 @@ public class HomePage : UIPage
         
 
         var obj=Resources.Load("Character/"+index);
-        var o = Instantiate(obj, root);
+        var o = Instantiate(obj, root) as GameObject;
+        if (o.GetComponent<PlayerCtrl>() != null)
+        {
+            o.GetComponent<PlayerCtrl>().enabled = false;
+        }
     }
 
 

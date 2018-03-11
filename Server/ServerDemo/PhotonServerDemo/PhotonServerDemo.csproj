@@ -77,6 +77,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cache\Caches.cs" />
+    <Compile Include="Cache\RoomCacahe.cs" />
     <Compile Include="Client.cs" />
     <Compile Include="DLL\Game_Character.cs" />
     <Compile Include="DLL\Game_User.cs" />
@@ -89,6 +91,7 @@
     <Compile Include="Handler\GameUserHandler.cs" />
     <Compile Include="Handler\HandlerBase.cs" />
     <Compile Include="Handler\LoginHandler.cs" />
+    <Compile Include="Handler\MatchHandler.cs" />
     <Compile Include="Handler\SkillHandler.cs" />
     <Compile Include="Handler\SyncPlayerHandler.cs" />
     <Compile Include="Handler\SyncPositionHandler.cs" />
@@ -97,6 +100,7 @@
       <DependentUpon>201803031117081_InitModel.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Room\RoomBase.cs" />
     <Compile Include="ServerEntry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Threads\SyncPositionThread.cs" />

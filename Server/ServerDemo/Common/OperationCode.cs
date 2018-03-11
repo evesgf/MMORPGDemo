@@ -15,6 +15,9 @@
 
         Chat,
 
+        StartMatch,
+        StopMatch,
+
         SyncPosition,
         SyncPlayer,
 

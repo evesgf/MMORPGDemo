@@ -59,6 +59,18 @@ public class MatchPage : UIPage
     public void SoloMode()
     {
         ShowBoard(matchBoard);
+        StartMatch();
+
+    }
+
+    /// <summary>
+    /// 房间模式
+    /// </summary>
+    public void RoomMode()
+    {
+        ShowBoard(matchBoard);
+        StartMatch();
+        GetComponent<MatchRequest>().RoomRequest();
     }
 
     /// <summary>
@@ -67,7 +79,8 @@ public class MatchPage : UIPage
     public void MulitiMode()
     {
         ShowBoard(matchBoard);
-
+        StartMatch();
+        GetComponent<MatchRequest>().MulitiRequest();
     }
 
     #region 多人模式

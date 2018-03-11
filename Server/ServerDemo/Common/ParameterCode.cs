@@ -18,6 +18,9 @@ namespace Common
 
         ChatInfo,
 
+        MatchRoom,
+        MatchMuliti,
+
         PositionX,
         PositionY,
         PositionZ,
