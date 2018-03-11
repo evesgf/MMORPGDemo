@@ -6,25 +6,16 @@ using UnityEngine.UI;
 
 public class DialogWindow : UIWindow
 {
-    public Button btn_Save;
-    public Button btn_Canel;
+    public Text text;
 
     public override void Open(object arg = null)
     {
         base.Open(arg);
-
-        btn_Save.onClick.AddListener(OnSave);
+        text.text = arg as string;
     }
 
     public override void Close(object arg = null)
     {
         base.Close(arg);
-
-        btn_Save.onClick.RemoveListener(OnSave);
-    }
-
-    private void OnSave()
-    {
-        Close();
     }
 }

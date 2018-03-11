@@ -13,7 +13,7 @@ public class ChatRequest : RequestBase
     [HideInInspector]
     public string chat;
 
-    public override void DefaultRequest()
+    public override void DefaultRequest(Action action = null)
     {
         Dictionary<byte, object> data = new Dictionary<byte, object>();
         data.Add((byte)ParameterCode.ChatInfo, chat);

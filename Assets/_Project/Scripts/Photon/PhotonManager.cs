@@ -80,7 +80,7 @@ namespace LarkFramework.Net
             re.userName = d_UserName;
             re.passWord = d_PassWord;
             re.isDebugLogin = true;
-            re.DefaultRequest();
+            re.DefaultRequest(OnDebugLogin);
 
             this.Log(LOG_TAG + "Debug Login Access!");
         }
@@ -160,10 +160,6 @@ namespace LarkFramework.Net
         public void OnStatusChanged(StatusCode statusCode)
         {
             Debug.Log(statusCode);
-            if (statusCode == StatusCode.Connect)
-            {
-                OnDebugLogin();
-            }
         }
 
         #endregion

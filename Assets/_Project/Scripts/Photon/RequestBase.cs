@@ -12,7 +12,7 @@ namespace LarkFramework.Net
     {
         public OperationCode opCode;
 
-        public abstract void DefaultRequest();
+        public abstract void DefaultRequest(Action action=null);
         public abstract void OnOperationResponse(OperationResponse operationResponse);
 
         public virtual void Start()

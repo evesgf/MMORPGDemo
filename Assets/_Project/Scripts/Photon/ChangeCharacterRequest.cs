@@ -14,7 +14,7 @@ public class ChangeCharacterRequest : RequestBase
     [HideInInspector]
     public int characterId;
 
-    public override void DefaultRequest()
+    public override void DefaultRequest(Action action = null)
     {
         Dictionary<byte, object> data = new Dictionary<byte, object>();
         data.Add((byte)ParameterCode.CharacterId, characterId);

@@ -6,6 +6,7 @@ using LarkFramework;
 using UnityEngine;
 using LarkFramework.Procedure;
 using Common.Tools;
+using System;
 
 public class LoginRequest : RequestBase
 {
@@ -16,8 +17,12 @@ public class LoginRequest : RequestBase
     [HideInInspector]
     public bool isDebugLogin;
 
-    public override void DefaultRequest()
+    private Action act;
+
+    public override void DefaultRequest(Action action = null)
     {
+        act = action;
+
         Dictionary<byte, object> data = new Dictionary<byte, object>();
         data.Add((byte)ParameterCode.UserName, userName);
         data.Add((byte)ParameterCode.passWord, passWord);
@@ -35,10 +40,7 @@ public class LoginRequest : RequestBase
             SingletonMono<PhotonManager>.Instance.loginUserId = userId;
             Debug.Log("当前登录用户Id:"+userId);
 
-            if (!isDebugLogin)
-            {
-                GetComponent<LoginPage>().OnLoginResponse(returnCode);
-            }
+            act.Invoke();
         }
         else
         {

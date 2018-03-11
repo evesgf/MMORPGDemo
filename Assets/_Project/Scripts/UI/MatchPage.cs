@@ -27,7 +27,6 @@ public class MatchPage : UIPage
         {
             item.MoveOut();
         }
-
         base.Close(arg);
     }
 
@@ -70,6 +69,7 @@ public class MatchPage : UIPage
     {
         ShowBoard(matchBoard);
         StartMatch();
+        SwitchCamPos(1);
         GetComponent<MatchRequest>().RoomRequest();
     }
 
@@ -113,6 +113,9 @@ public class MatchPage : UIPage
 
         ShowBoard(selectModeBoard);
         start = false;
+
+        SwitchCamPos(2);
+
     }
 
     #endregion
@@ -128,6 +131,24 @@ public class MatchPage : UIPage
                 second = 0;
             }
             txtTime.text = minute.ToString().PadLeft(2, '0') + ":" + second.ToString("00");
+        }
+    }
+
+    private void SwitchCamPos(int index)
+    {
+        var pos1 = GameObject.Find("CamPos1").transform;
+        var pos2 = GameObject.Find("CamPos2").transform;
+        var cam = GameObject.Find("Main Camera").transform;
+
+        if (index == 1)
+        {
+            cam.position = pos2.position;
+            cam.rotation = pos2.rotation;
+        }
+        else
+        {
+            cam.position = pos1.position;
+            cam.rotation = pos1.rotation;
         }
     }
 }

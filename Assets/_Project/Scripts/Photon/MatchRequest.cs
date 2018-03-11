@@ -9,7 +9,7 @@ using Common;
 
 public class MatchRequest : RequestBase
 {
-    public override void DefaultRequest()
+    public override void DefaultRequest(Action action = null)
     {
 
     }

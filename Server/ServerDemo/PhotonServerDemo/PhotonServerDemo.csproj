@@ -63,7 +63,7 @@
       <HintPath>..\..\..\..\PhotonExample\PhotonServer\lib\Photon.SocketServer.dll</HintPath>
     </Reference>
     <Reference Include="PhotonHostRuntimeInterfaces">
-      <HintPath>..\..\..\..\PhotonExample\PhotonServer\lib\PhotonHostRuntimeInterfaces.dll</HintPath>
+      <HintPath>..\..\PhotonServer\lib\PhotonHostRuntimeInterfaces.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />
