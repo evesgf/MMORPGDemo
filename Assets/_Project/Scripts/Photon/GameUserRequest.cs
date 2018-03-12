@@ -7,6 +7,7 @@ using LarkFramework;
 using Common;
 using Common.Tools;
 using System;
+using LarkFramework.UI;
 
 public class GameUserRequest : RequestBase
 {
@@ -30,7 +31,7 @@ public class GameUserRequest : RequestBase
         }
         else
         {
-            Debug.LogError("GameUserRequest Error");
+            UIManager.Instance.OpenWindow<DialogWindow>("GameUser Request Error");
         }
     }
 }

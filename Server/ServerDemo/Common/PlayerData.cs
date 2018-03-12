@@ -5,7 +5,11 @@ namespace Common
     [Serializable]
     public class PlayerData
     {
-        public Vector3Data pos { get; set; }
         public int userId { get; set; }
+        public int gameUserId { get; set; }
+
+        public int characterId { get; set; }
+
+        public Vector3Data pos { get; set; }
     }
 }

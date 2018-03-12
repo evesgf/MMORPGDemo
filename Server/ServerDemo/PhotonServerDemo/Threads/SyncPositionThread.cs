@@ -48,7 +48,7 @@ namespace PhotonServerDemo.Threads
                 if (p.loginUserId!=0)
                 {
                     PlayerData playerData = new PlayerData();
-                    playerData.userId = p.loginUserId;
+                    playerData.gameUserId = p.loginUserId;
                     playerData.pos = new Vector3Data() { x = p.x, y = p.y, z = p.z };
                     playerDatatList.Add(playerData);
                 }

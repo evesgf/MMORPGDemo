@@ -11,6 +11,7 @@ namespace Common
     {
         Chat,
 
+        RoomUsersInfo,
         StartRoomGame,
 
         NewPlayer,

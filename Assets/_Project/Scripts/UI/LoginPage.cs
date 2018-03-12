@@ -45,7 +45,7 @@ public class LoginPage : UIPage
     {
         loginRequest.userName = input_UserName.text;
         loginRequest.passWord = input_PassWord.text;
-        loginRequest.DefaultRequest(()=> { GetComponent<LoginPage>().OnLoginResponse(ReturnCode.Success); });
+        loginRequest.DefaultRequest();
     }
 
     public void OnLoginResponse(ReturnCode returnCode)

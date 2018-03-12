@@ -17,12 +17,9 @@ public class LoginRequest : RequestBase
     [HideInInspector]
     public bool isDebugLogin;
 
-    private Action act;
 
     public override void DefaultRequest(Action action = null)
     {
-        act = action;
-
         Dictionary<byte, object> data = new Dictionary<byte, object>();
         data.Add((byte)ParameterCode.UserName, userName);
         data.Add((byte)ParameterCode.passWord, passWord);
@@ -39,8 +36,7 @@ public class LoginRequest : RequestBase
             var userId = (int)DictTool.GetValue<byte, object>(operationResponse.Parameters, (byte)ParameterCode.UserId);
             SingletonMono<PhotonManager>.Instance.loginUserId = userId;
             Debug.Log("当前登录用户Id:"+userId);
-
-            act.Invoke();
+            GetComponent<LoginPage>().OnLoginResponse(returnCode);
         }
         else
         {

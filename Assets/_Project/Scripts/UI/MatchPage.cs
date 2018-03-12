@@ -1,4 +1,6 @@
-﻿using LarkFramework.Tick;
+﻿using Common;
+using LarkFramework.Net;
+using LarkFramework.Tick;
 using LarkFramework.UI;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,6 +11,7 @@ public class MatchPage : UIPage
 {
     public GameObject selectModeBoard;
     public GameObject matchBoard;
+    public GameObject playBoard;
 
     public override void Open(object arg = null)
     {
@@ -27,6 +30,11 @@ public class MatchPage : UIPage
         {
             item.MoveOut();
         }
+        foreach (var item in playBoard.GetComponentsInChildren<GUIAnim>())
+        {
+            item.MoveOut();
+        }
+
         base.Close(arg);
     }
 
@@ -41,9 +49,14 @@ public class MatchPage : UIPage
         {
             item.MoveOut();
         }
+        foreach (var item in playBoard.GetComponentsInChildren<GUIAnim>())
+        {
+            item.MoveOut();
+        }
+
         selectModeBoard.gameObject.SetActive(false);
         matchBoard.gameObject.SetActive(false);
-
+        playBoard.gameObject.SetActive(false);
 
         root.gameObject.SetActive(true);
         foreach (var item in root.GetComponentsInChildren<GUIAnim>())
@@ -113,7 +126,7 @@ public class MatchPage : UIPage
 
         ShowBoard(selectModeBoard);
         start = false;
-
+        GetComponent<MatchRequest>().StopRequest();
         SwitchCamPos(2);
 
     }
@@ -150,5 +163,52 @@ public class MatchPage : UIPage
             cam.position = pos1.position;
             cam.rotation = pos1.rotation;
         }
+    }
+
+    public void RefshRoomUsers(List<PlayerData> list)
+    {
+        foreach (var p in list)
+        {
+            if (p.userId != PhotonManager.Instance.loginUserId)
+            {
+                var root = GameObject.Find("CharacterRoot2").transform;
+
+                for (int i = 0; i < root.childCount; i++)
+                {
+                    Destroy(root.GetChild(i).gameObject);
+                }
+
+                var obj = Resources.Load("Character/" + p.characterId);
+                var o = Instantiate(obj, root) as GameObject;
+                if (o.GetComponent<PlayerCtrl>() != null)
+                {
+                    o.GetComponent<PlayerCtrl>().enabled = false;
+                }
+            }
+        }
+    }
+
+    public void OnMatchOK()
+    {
+        ShowBoard(playBoard);
+    }
+
+    public void OnPlayBoard()
+    {
+        //开始游戏
+    }
+
+    public void OnCancelPlayBoard()
+    {
+        //取消
+        GetComponent<MatchRequest>().StopRequest();
+        SwitchCamPos(2);
+        ShowBoard(selectModeBoard);
+    }
+
+    private void OnDestroy()
+    {
+        //取消
+        GetComponent<MatchRequest>().StopRequest();
     }
 }
