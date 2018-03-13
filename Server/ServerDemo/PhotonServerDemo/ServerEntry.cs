@@ -104,6 +104,9 @@ namespace PhotonServerDemo
             StartMatchHandler matchHandler = new StartMatchHandler();
             dict_Handler.Add(matchHandler.opCode, matchHandler);
 
+            RoomFightHandler roomFightHandler = new RoomFightHandler();
+            dict_Handler.Add(roomFightHandler.opCode, roomFightHandler);
+
             //SyncPositionHandler syncPositionHandler = new SyncPositionHandler();
             //dict_Handler.Add(syncPositionHandler.opCode, syncPositionHandler);
 

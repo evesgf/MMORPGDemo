@@ -10,5 +10,7 @@ namespace Project
         public const string LoginScene = "Login";
         public const string HomeScene = "Main";
 
+        public const string Map_01 = "Map_01";
+        public const string Map_02 = "Map_02";
     }
 }

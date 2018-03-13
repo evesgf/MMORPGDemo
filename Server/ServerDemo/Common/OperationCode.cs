@@ -18,6 +18,8 @@
         StartMatch,
         StopMatch,
 
+        RoomFight,
+
         SyncPosition,
         SyncPlayer,
 

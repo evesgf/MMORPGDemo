@@ -92,6 +92,7 @@
     <Compile Include="Handler\HandlerBase.cs" />
     <Compile Include="Handler\LoginHandler.cs" />
     <Compile Include="Handler\MatchHandler.cs" />
+    <Compile Include="Handler\RoomFightHandler.cs" />
     <Compile Include="Handler\SkillHandler.cs" />
     <Compile Include="Handler\SyncPlayerHandler.cs" />
     <Compile Include="Handler\SyncPositionHandler.cs" />

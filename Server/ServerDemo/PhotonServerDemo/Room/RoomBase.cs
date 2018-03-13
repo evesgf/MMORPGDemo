@@ -1,6 +1,9 @@
-﻿using ExitGames.Threading;
+﻿using Common;
+using ExitGames.Threading;
 using Photon.SocketServer;
+using PhotonServerDemo.Threads;
 using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -37,6 +40,12 @@ namespace PhotonServerDemo.Room
         /// 定时任务的ID
         /// </summary>
         public Guid GUID;
+
+        //玩家同步数据的队列
+        public ConcurrentDictionary<int, PlayerData> dict_UserData = new ConcurrentDictionary<int, PlayerData>();
+
+        //同步数据的线程
+        public SyncPositionThread syncPositionThread = new SyncPositionThread();
 
         public RoomBase(int id, int count)
         {

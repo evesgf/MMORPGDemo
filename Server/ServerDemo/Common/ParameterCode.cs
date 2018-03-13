@@ -21,6 +21,8 @@ namespace Common
         MatchRoom,
         MatchMuliti,
 
+        RoomFight,
+
         PositionX,
         PositionY,
         PositionZ,
