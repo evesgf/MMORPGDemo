@@ -14,6 +14,9 @@ namespace Common
         RoomUsersInfo,
         StartRoomGame,
 
+        RoomFight,
+        SyncPlayerData,
+
         NewPlayer,
         SyncPosition
     }

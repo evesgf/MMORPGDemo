@@ -14,7 +14,7 @@ namespace PhotonServerDemo.Handler
     {
         public SyncPositionHandler()
         {
-            opCode = OperationCode.SyncPosition;
+            //opCode = OperationCode.SyncPosition;
         }
 
         public override void OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters, Client peer)

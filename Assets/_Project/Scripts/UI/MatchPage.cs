@@ -1,5 +1,6 @@
 ﻿using Common;
 using LarkFramework.Net;
+using LarkFramework.Procedure;
 using LarkFramework.Tick;
 using LarkFramework.UI;
 using System.Collections;
@@ -196,6 +197,7 @@ public class MatchPage : UIPage
     public void OnPlayBoard()
     {
         //开始游戏
+        ProcedureManager.Instance.ChangeProcedure<ProcedureRoomFight>();
     }
 
     public void OnCancelPlayBoard()

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerCtrl : MonoBehaviour {
 
+    public Transform characterRoot;
     public Transform character;
 
     public float speed_walk;
@@ -21,12 +22,19 @@ public class PlayerCtrl : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        animCtrl = character.GetComponent<AnimCtrl>();
+
+        SyncPlayerDataRequest = GetComponent<SyncPlayerDataRequest>();
 
         foreach (var item in FindObjectsOfType<EmptyCtrl>())
         {
             list_Empty.Add(item.transform);
         }
+
+        lastPosition = transform.position;
+        SyncPlayerDataRequest.pos = transform.position;
+        SyncPlayerDataRequest.PositionRequest();
+
+        InvokeRepeating("OnSyncPostition", 1, 0.2f);
     }
 	
 	// Update is called once per frame
@@ -54,6 +62,30 @@ public class PlayerCtrl : MonoBehaviour {
         #endregion
 
         ShowTarget();
+    }
+
+    private SyncPlayerDataRequest SyncPlayerDataRequest;
+    private Vector3 lastPosition = Vector3.zero;
+    /// <summary>
+    /// 同步位置
+    /// </summary>
+    void OnSyncPostition()
+    {
+        if (Vector3.Distance(transform.position, lastPosition) > 0.1f)
+        {
+            lastPosition = transform.position;
+            SyncPlayerDataRequest.pos = transform.position;
+            SyncPlayerDataRequest.PositionRequest();
+        }
+    }
+
+    public void LoadCharacter(int index)
+    {
+        var c = Resources.Load("Character2/" + index);
+        var ch = Instantiate(c, characterRoot) as GameObject;
+        character = ch.transform;
+        animCtrl = character.GetComponent<AnimCtrl>();
+
     }
 
     private void UseSkill()

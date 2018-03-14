@@ -23,7 +23,7 @@ namespace PhotonServerDemo.Handler
 
         public override void OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters, Client peer)
         {
-            int onRoomFight = (int)DictTool.GetValue<byte, object>(operationRequest.Parameters, (byte)ParameterCode.RoomFight);
+            object onRoomFight = (object)DictTool.GetValue<byte, object>(operationRequest.Parameters, (byte)ParameterCode.RoomFight);
 
             switch (onRoomFight)
             {
@@ -78,9 +78,10 @@ namespace PhotonServerDemo.Handler
                         //存入同步数据
                         PlayerData playerData = new PlayerData
                         {
-                            userId=peer.loginUserId,
-                            gameUserId=gameUser.Id,
-                            characterId=character.Id
+                            userId = peer.loginUserId,
+                            gameUserId = gameUser.Id,
+                            characterId = character.Id,
+                            pos = new Vector3Data()
                         };
 
                         room.dict_UserData.TryAdd(peer.loginUserId, playerData);
@@ -103,10 +104,10 @@ namespace PhotonServerDemo.Handler
             }
 
             //开启同步线程
-            room.syncPositionThread.Run();
+            room.syncPositionThread.Run(room);
 
             //广播通知客户端正式开始
-
+            room.Broadcast(OnRoomFight.RDY);
         }
     }
 }

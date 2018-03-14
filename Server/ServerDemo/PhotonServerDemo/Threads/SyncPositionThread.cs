@@ -1,6 +1,7 @@
 ﻿using Common;
 using LitJson;
 using Photon.SocketServer;
+using PhotonServerDemo.Room;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,8 +17,12 @@ namespace PhotonServerDemo.Threads
     public class SyncPositionThread
     {
         private Thread t;
-        public void Run()
+        private RoomBase room;
+
+        public void Run(RoomBase r)
         {
+            room = r;
+
             t = new Thread(UpdatePosition);
             t.IsBackground = true;
             t.Start();
@@ -35,36 +40,34 @@ namespace PhotonServerDemo.Threads
             while (true)
             {
                 Thread.Sleep(200);
-                //同步位置
-                SendPosition();
+                //同步玩家数据
+                SendPlayersData();
             }
         }
 
-        private void SendPosition()
+        private void SendPlayersData()
         {
             List<PlayerData> playerDatatList = new List<PlayerData>();
-            foreach (Client p in ServerEntry.peerList)
+            foreach (Client p in room.ClientList)
             {
-                if (p.loginUserId!=0)
+                if (p.loginUserId != 0)
                 {
-                    PlayerData playerData = new PlayerData();
-                    playerData.gameUserId = p.loginUserId;
-                    playerData.pos = new Vector3Data() { x = p.x, y = p.y, z = p.z };
+                    var playerData = room.dict_UserData[p.loginUserId];
                     playerDatatList.Add(playerData);
                 }
+            }
 
-                string playerDatatListStr = JsonMapper.ToJson(playerDatatList);
-                Dictionary<byte, object> data = new Dictionary<byte, object>();
-                data.Add((byte)ParameterCode.PlayerDataList, playerDatatListStr);
+            string playerDatatListStr = JsonMapper.ToJson(playerDatatList);
+            Dictionary<byte, object> data = new Dictionary<byte, object>();
+            data.Add((byte)ParameterCode.PlayerDataList, playerDatatListStr);
 
-                foreach (Client p1 in ServerEntry.peerList)
+            foreach (Client p1 in room.ClientList)
+            {
+                if (p1.loginUserId != 0)
                 {
-                    if (p.loginUserId!=0)
-                    {
-                        EventData ed = new EventData((byte)EventCode.SyncPosition);
-                        ed.Parameters = data;
-                        p1.SendEvent(ed, new SendParameters());
-                    }
+                    EventData ed = new EventData((byte)EventCode.SyncPlayerData);
+                    ed.Parameters = data;
+                    p1.SendEvent(ed, new SendParameters());
                 }
             }
         }

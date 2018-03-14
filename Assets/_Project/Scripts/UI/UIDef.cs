@@ -15,5 +15,7 @@ public class UIDef  {
 
     public const string MatchPage = "MatchPage";
 
+    public const string RoomFightPage = "RoomFightPage";
+
     public const string DialogWindow = "DialogWindow";
 }

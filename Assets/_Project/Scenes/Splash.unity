@@ -213,6 +213,7 @@ MonoBehaviour:
   - ProcedureHome
   - ProcedureLogin
   - ProcedureMatch
+  - ProcedureRoomFight
   - ProcedureSplash
   m_EntranceProcedureTypeName: ProcedureSplash
 --- !u!1 &342121865

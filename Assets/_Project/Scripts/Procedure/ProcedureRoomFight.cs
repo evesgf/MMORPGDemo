@@ -13,10 +13,10 @@ public class ProcedureRoomFight : ProcedureBase
     {
         base.OnEnter(procedureOwner);
 
+        Debug.Log("--------ProcedureRoomFight");
         ScenesManager.Instance.LoadScene(SceneDef.Map_02);
-        UIManager.Instance.OpenPage(UIDef.MatchPage);
-
-        GameObject.FindObjectOfType<Map02Mgr>().Init();
+        UIManager.Instance.OpenPage(UIDef.RoomFightPage);
+        Debug.Log("ProcedureRoomFight-----------");
     }
 
     protected internal override void OnInit(IFSM<ProcedureManager> procedureOwner)

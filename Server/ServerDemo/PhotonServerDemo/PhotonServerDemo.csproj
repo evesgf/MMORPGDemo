@@ -94,7 +94,7 @@
     <Compile Include="Handler\MatchHandler.cs" />
     <Compile Include="Handler\RoomFightHandler.cs" />
     <Compile Include="Handler\SkillHandler.cs" />
-    <Compile Include="Handler\SyncPlayerHandler.cs" />
+    <Compile Include="Handler\SyncPlayerDataHandler.cs" />
     <Compile Include="Handler\SyncPositionHandler.cs" />
     <Compile Include="Migrations\201803031117081_InitModel.cs" />
     <Compile Include="Migrations\201803031117081_InitModel.Designer.cs">

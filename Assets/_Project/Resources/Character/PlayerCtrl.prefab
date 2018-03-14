@@ -68,6 +68,7 @@ GameObject:
   - component: {fileID: 4707679292240920}
   - component: {fileID: 114882508912773174}
   - component: {fileID: 114240814329067166}
+  - component: {fileID: 114370667567729452}
   m_Layer: 0
   m_Name: PlayerCtrl
   m_TagString: Untagged
@@ -345,6 +346,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 1211626043048372, guid: 30a40c54c91c9b6458712e0f29f799ca, type: 2}
   instancePos: {fileID: 4299863592423404}
+--- !u!114 &114370667567729452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569607944861834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3feda3e211ce71f428cb356002e006b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  opCode: 9
+  pos: {x: 0, y: 0, z: 0}
 --- !u!114 &114882508912773174
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -356,6 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 454c66a502069ca42ba41a6a3be4433c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterRoot: {fileID: 4643504378186954}
   character: {fileID: 0}
   speed_walk: 1
   speed_run: 2.5

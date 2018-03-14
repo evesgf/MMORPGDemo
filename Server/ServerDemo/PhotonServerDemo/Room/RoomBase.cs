@@ -97,29 +97,19 @@ namespace PhotonServerDemo.Room
         }
 
         /// <summary>
-        /// 广播
+        /// 广播给房间的所有用户
         /// </summary>
-        /// <param name="client">收响应的客户端</param>
-        /// <param name="opCode">操作码</param>
-        /// <param name="subCode">子操作</param>
-        /// <param name="parameters">参数</param>
-        public void Brocast(byte opCode, byte subCode, short retCode, string mess, Client exClient, params object[] parameters)
+        /// <param name="value"></param>
+        public void Broadcast(object value)
         {
-            OperationResponse response = new OperationResponse();
-            response.OperationCode = opCode;
-            response.Parameters = new Dictionary<byte, object>();
-            response[80] = subCode;
-            for (int i = 0; i < parameters.Length; i++)
-                response[(byte)i] = parameters[i];
+            Dictionary<byte, object> data = new Dictionary<byte, object>();
+            data.Add((byte)ParameterCode.RoomFight, value);
 
-            response.ReturnCode = retCode;
-            response.DebugMessage = mess;
-
-            foreach (Client client in ClientList)
+            EventData ed = new EventData((byte)EventCode.RoomFight);
+            ed.Parameters = data;
+            foreach (var p in ClientList)
             {
-                if (client == exClient)
-                    continue;
-                client.SendOperationResponse(response, new SendParameters());
+                p.SendEvent(ed, new SendParameters());
             }
         }
     }
