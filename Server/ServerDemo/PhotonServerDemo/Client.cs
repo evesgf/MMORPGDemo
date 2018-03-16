@@ -27,6 +27,10 @@ namespace PhotonServerDemo
         /// <param name="reasonDetail"></param>
         protected override void OnDisconnect(DisconnectReason reasonCode, string reasonDetail)
         {
+            //移除房间
+            var handler=(StartMatchHandler)ServerEntry.dict_Handler[OperationCode.StartMatch];
+            handler.StopMatch(null,new SendParameters(),this);
+
             ServerEntry.peerList.Remove(this);
         }
 

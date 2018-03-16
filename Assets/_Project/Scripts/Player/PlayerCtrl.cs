@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerCtrl : MonoBehaviour {
 
@@ -12,6 +13,8 @@ public class PlayerCtrl : MonoBehaviour {
 
     public Transform tragetRang;
 
+    public Text info;
+
     private AnimCtrl animCtrl;
 
     private bool isMove;
@@ -20,10 +23,13 @@ public class PlayerCtrl : MonoBehaviour {
     private List<Transform> list_Empty = new List<Transform>();
     private Transform nowTarget;
 
-	// Use this for initialization
-	void Start () {
+    private float h;
+    private float v;
 
-        SyncPlayerDataRequest = GetComponent<SyncPlayerDataRequest>();
+    // Use this for initialization
+    void Start () {
+
+        syncPlayerDataRequest = GetComponent<SyncPlayerDataRequest>();
 
         foreach (var item in FindObjectsOfType<EmptyCtrl>())
         {
@@ -31,8 +37,10 @@ public class PlayerCtrl : MonoBehaviour {
         }
 
         lastPosition = transform.position;
-        SyncPlayerDataRequest.pos = transform.position;
-        SyncPlayerDataRequest.PositionRequest();
+        syncPlayerDataRequest.pos = transform.position;
+        syncPlayerDataRequest.rot = character.rotation;
+        syncPlayerDataRequest.animationKey = animCtrl.GetAniKey();
+        syncPlayerDataRequest.PositionRequest();
 
         InvokeRepeating("OnSyncPostition", 1, 0.2f);
     }
@@ -45,8 +53,10 @@ public class PlayerCtrl : MonoBehaviour {
             SwitchRun();
         }
 
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
+        h = Input.GetAxis("Horizontal");
+        v = Input.GetAxis("Vertical");
+
+        info.text = "h:" + h + " v:" + v;
 
         IsMove(h, v);
         RotateCharacter(h,v);
@@ -64,19 +74,27 @@ public class PlayerCtrl : MonoBehaviour {
         ShowTarget();
     }
 
-    private SyncPlayerDataRequest SyncPlayerDataRequest;
+    private SyncPlayerDataRequest syncPlayerDataRequest;
     private Vector3 lastPosition = Vector3.zero;
     /// <summary>
     /// 同步位置
     /// </summary>
     void OnSyncPostition()
     {
-        if (Vector3.Distance(transform.position, lastPosition) > 0.1f)
-        {
-            lastPosition = transform.position;
-            SyncPlayerDataRequest.pos = transform.position;
-            SyncPlayerDataRequest.PositionRequest();
-        }
+        //if (Vector3.Distance(transform.position, lastPosition) > 0.1f)
+        //{
+        //    lastPosition = transform.position;
+        //    syncPlayerDataRequest.pos = transform.position;
+        //    syncPlayerDataRequest.rotation = character.rotation;
+        //    syncPlayerDataRequest.animationKey = animCtrl.GetAniKey();
+        //    syncPlayerDataRequest.PositionRequest();
+        //}
+
+        lastPosition = transform.position;
+        syncPlayerDataRequest.pos = transform.position;
+        syncPlayerDataRequest.rot = character.rotation;
+        syncPlayerDataRequest.animationKey = animCtrl.GetAniKey();
+        syncPlayerDataRequest.PositionRequest();
     }
 
     public void LoadCharacter(int index)

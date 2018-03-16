@@ -11,5 +11,7 @@ namespace Common
         public int characterId { get; set; }
 
         public Vector3Data pos { get; set; }
+        public RotationData rotation { get; set; }
+        public int animation { get; set; }
     }
 }

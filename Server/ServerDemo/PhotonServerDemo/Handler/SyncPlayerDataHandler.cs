@@ -22,9 +22,16 @@ namespace PhotonServerDemo.Handler
 
         public override void OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters, Client peer)
         {
-            float x = (float)DictTool.GetValue<byte, object>(operationRequest.Parameters, (byte)ParameterCode.PositionX);
-            float y = (float)DictTool.GetValue<byte, object>(operationRequest.Parameters, (byte)ParameterCode.PositionY);
-            float z = (float)DictTool.GetValue<byte, object>(operationRequest.Parameters, (byte)ParameterCode.PositionZ);
+            double x = (double)DictTool.GetValue<byte, object>(operationRequest.Parameters, (byte)ParameterCode.PositionX);
+            double y = (double)DictTool.GetValue<byte, object>(operationRequest.Parameters, (byte)ParameterCode.PositionY);
+            double z = (double)DictTool.GetValue<byte, object>(operationRequest.Parameters, (byte)ParameterCode.PositionZ);
+
+            double rx = (double)DictTool.GetValue<byte, object>(operationRequest.Parameters, (byte)ParameterCode.RotationX);
+            double ry = (double)DictTool.GetValue<byte, object>(operationRequest.Parameters, (byte)ParameterCode.RotationY);
+            double rz = (double)DictTool.GetValue<byte, object>(operationRequest.Parameters, (byte)ParameterCode.RotationZ);
+            double rw = (double)DictTool.GetValue<byte, object>(operationRequest.Parameters, (byte)ParameterCode.RotationW);
+
+            int ani = (int)DictTool.GetValue<byte, object>(operationRequest.Parameters, (byte)ParameterCode.Animation);
 
             var roomId = roomCacahe.dict_playerRoom[peer.loginUserId];
             var room= roomCacahe.dict_RoomList[roomId];
@@ -32,6 +39,14 @@ namespace PhotonServerDemo.Handler
             userData.pos.x = x;
             userData.pos.y = y;
             userData.pos.z = z;
+
+            userData.rotation.x = rx;
+            userData.rotation.y = ry;
+            userData.rotation.z = rz;
+            userData.rotation.w = rw;
+
+            userData.animation = ani;
+
             room.dict_UserData[peer.loginUserId] = userData;
         }
     }

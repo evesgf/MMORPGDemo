@@ -22,8 +22,8 @@ public class SyncPlayerDataEvent : EventBase
 
         if (isFirstSync)
         {
-            GetComponent<Map02Mgr>().InitPlayerList(list);
             isFirstSync = false;
+            GetComponent<Map02Mgr>().InitPlayerList(list);
         }
 
         foreach (var p in list)
@@ -32,7 +32,10 @@ public class SyncPlayerDataEvent : EventBase
 
             if (p.pos != null)
             {
-                GetComponent<Map02Mgr>().SetCharacterPos(p.userId, new Vector3((float)p.pos.x, (float)p.pos.y, (float)p.pos.z));
+                var newPos = new Vector3((float)p.pos.x, (float)p.pos.y, (float)p.pos.z);
+                var newRot = new Quaternion((float)p.rotation.x, (float)p.rotation.y, (float)p.rotation.z, (float)p.rotation.w);
+
+                GetComponent<Map02Mgr>().SetCharacterPos(p.userId, newPos, newRot, p.animation);
             }
 
         }

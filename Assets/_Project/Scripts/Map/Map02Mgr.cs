@@ -4,6 +4,7 @@ using LarkFramework.Net;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class Map02Mgr : MonoBehaviour {
 
@@ -18,9 +19,14 @@ public class Map02Mgr : MonoBehaviour {
         GetComponent<RoomFightRequest>().OnFightRequest();
     }
 
-    public void SetCharacterPos(int userId, Vector3 pos)
+    public void SetCharacterPos(int userId, Vector3 pos,Quaternion rot,int ani)
     {
-        dict_userCharacter[userId].position = pos;
+
+        dict_userCharacter[userId].DOMove(pos,0.2f);
+
+        var ec = dict_userCharacter[userId].GetComponent<EmptyCtrl>();
+        ec.SetRot(rot);
+        ec.SetAni(ani);
     }
 
     public void InitPlayerList(List<PlayerData> list)
@@ -55,19 +61,23 @@ public class Map02Mgr : MonoBehaviour {
         {
             if (p.userId != SingletonMono<PhotonManager>.Instance.loginUserId)
             {
-                GameObject character;
+                //加载敌人控制器
+                var e = Resources.Load("Character/EmptyCtrl");
+                GameObject emptyCtrl;
                 if (isTeam1)
                 {
-                    var c = Resources.Load("Character2/" + p.characterId);
-                    character = Instantiate(c, team2.parent.transform) as GameObject;
+                    emptyCtrl = Instantiate(e, team2.parent.transform) as GameObject;
                 }
                 else
                 {
-                    var c = Resources.Load("Character2/" + p.characterId);
-                    character = Instantiate(c,team1.parent.transform) as GameObject;
-                }
 
-                dict_userCharacter.Add(p.userId, character.transform);
+                    emptyCtrl = Instantiate(e, team1.parent.transform) as GameObject;
+                }
+                var c = Resources.Load("Character2/" + p.characterId);
+                var character = Instantiate(c, emptyCtrl.GetComponent<EmptyCtrl>().characterRoot) as GameObject;
+                emptyCtrl.GetComponent<EmptyCtrl>().character = character.transform;
+
+                dict_userCharacter.Add(p.userId, emptyCtrl.transform);
             }
         }
 

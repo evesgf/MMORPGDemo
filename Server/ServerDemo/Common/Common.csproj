@@ -49,6 +49,7 @@
     <Compile Include="PlayerData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReturnCode.cs" />
+    <Compile Include="RotationData.cs" />
     <Compile Include="Tools\DictTool.cs" />
     <Compile Include="Vector3Data.cs" />
   </ItemGroup>

@@ -30,6 +30,16 @@ public class AnimCtrl : MonoBehaviour {
     [SerializeField]
     private int skill4 = 24;
 
+    public int GetAniKey()
+    {
+        return animator.GetInteger(aniKey);
+    }
+    public void SetAniKey(int key)
+    {
+        animator.SetInteger(aniKey, key);
+    }
+
+
     public void Idle()
     {
         animator.SetInteger(aniKey, idle);

@@ -26,6 +26,14 @@ namespace Common
         PositionX,
         PositionY,
         PositionZ,
+
+        RotationX,
+        RotationY,
+        RotationZ,
+        RotationW,
+
+        Animation,
+
         OnlineUserNameList,
         PlayerDataList
     }

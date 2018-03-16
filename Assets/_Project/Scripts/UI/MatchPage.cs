@@ -14,6 +14,8 @@ public class MatchPage : UIPage
     public GameObject matchBoard;
     public GameObject playBoard;
 
+    public Text timeConut;
+
     public override void Open(object arg = null)
     {
         base.Open(arg);
@@ -192,6 +194,20 @@ public class MatchPage : UIPage
     public void OnMatchOK()
     {
         ShowBoard(playBoard);
+
+        StartCoroutine(StartMatchOK());
+    }
+
+    IEnumerator StartMatchOK()
+    {
+        timeConut.text = "准备开始：3";
+        yield return new WaitForSeconds(1);
+        timeConut.text = "准备开始：2";
+        yield return new WaitForSeconds(1);
+        timeConut.text = "准备开始：1";
+        yield return new WaitForSeconds(1);
+        timeConut.text = "准备开始：0";
+        OnPlayBoard();
     }
 
     public void OnPlayBoard()

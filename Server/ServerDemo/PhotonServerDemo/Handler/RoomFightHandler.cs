@@ -81,7 +81,9 @@ namespace PhotonServerDemo.Handler
                             userId = peer.loginUserId,
                             gameUserId = gameUser.Id,
                             characterId = character.Id,
-                            pos = new Vector3Data()
+                            pos = new Vector3Data(),
+                            rotation = new RotationData(),
+                            animation = 0
                         };
 
                         room.dict_UserData.TryAdd(peer.loginUserId, playerData);
