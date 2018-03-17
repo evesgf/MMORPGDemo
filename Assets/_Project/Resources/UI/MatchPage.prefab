@@ -63,7 +63,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1109633561931040
 GameObject:
   m_ObjectHideFlags: 1
@@ -446,7 +446,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1986537392029078
 GameObject:
   m_ObjectHideFlags: 1
@@ -1670,7 +1670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   guiAnims: []
   CanvasGroup: 
-  m_btnGoBack: {fileID: 0}
+  m_btnGoBack: {fileID: 114300574183965272}
   selectModeBoard: {fileID: 1526128397124464}
   matchBoard: {fileID: 1955622648875298}
   playBoard: {fileID: 1052616631882818}
@@ -2301,7 +2301,7 @@ MonoBehaviour:
     Began: 0
     Animating: 0
     Done: 0
-    MoveFrom: 2
+    MoveFrom: 7
     BeginPos: {x: 0, y: 0, z: 0}
     EndPos: {x: 0, y: 0, z: 0}
     Position: {x: 0, y: 0, z: 0}

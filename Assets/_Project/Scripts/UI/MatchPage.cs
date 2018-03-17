@@ -16,15 +16,19 @@ public class MatchPage : UIPage
 
     public Text timeConut;
 
+    private bool isMatchOK;
+    private Coroutine coroutine;
+
     public override void Open(object arg = null)
     {
         base.Open(arg);
-
+        isMatchOK = false;
         ShowBoard(selectModeBoard);
     }
 
     public override void Close(object arg = null)
     {
+
         foreach (var item in selectModeBoard.GetComponentsInChildren<GUIAnim>())
         {
             item.MoveOut();
@@ -125,6 +129,8 @@ public class MatchPage : UIPage
 
     public void StopMatch()
     {
+        isMatchOK = false;
+
         TickManager.Instance.m_TickComponent.onUpdate -= OnUpdate;
 
         ShowBoard(selectModeBoard);
@@ -194,12 +200,17 @@ public class MatchPage : UIPage
     public void OnMatchOK()
     {
         ShowBoard(playBoard);
-
-        StartCoroutine(StartMatchOK());
+        isMatchOK = true;
+        coroutine =StartCoroutine(StartMatchOK());
     }
 
     IEnumerator StartMatchOK()
     {
+        if (!isMatchOK)
+        {
+            StopCoroutine(coroutine);
+        }
+
         timeConut.text = "准备开始：3";
         yield return new WaitForSeconds(1);
         timeConut.text = "准备开始：2";
@@ -207,7 +218,13 @@ public class MatchPage : UIPage
         timeConut.text = "准备开始：1";
         yield return new WaitForSeconds(1);
         timeConut.text = "准备开始：0";
-        OnPlayBoard();
+
+        Debug.Log(isMatchOK);
+
+        if (isMatchOK)
+        {
+            OnPlayBoard();
+        }
     }
 
     public void OnPlayBoard()
@@ -219,6 +236,7 @@ public class MatchPage : UIPage
     public void OnCancelPlayBoard()
     {
         //取消
+        isMatchOK = false;
         GetComponent<MatchRequest>().StopRequest();
         SwitchCamPos(2);
         ShowBoard(selectModeBoard);

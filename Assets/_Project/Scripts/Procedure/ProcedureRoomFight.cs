@@ -31,6 +31,8 @@ public class ProcedureRoomFight : ProcedureBase
 
     protected internal override void OnLeave(IFSM<ProcedureManager> procedureOwner, bool isShutdown)
     {
+        GameObject.FindObjectOfType<RoomFightRequest>().OnGameOverRequest();
+
         base.OnLeave(procedureOwner, isShutdown);
     }
 

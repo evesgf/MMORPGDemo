@@ -2180,6 +2180,7 @@ GameObject:
   - component: {fileID: 1867298337}
   - component: {fileID: 1867298336}
   - component: {fileID: 1867298339}
+  - component: {fileID: 1867298340}
   m_Layer: 0
   m_Name: Map02Mgr
   m_TagString: Untagged
@@ -2249,6 +2250,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eventCode: 4
+--- !u!114 &1867298340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1867298334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec85b8dc8d497ae45ac9e2b0b813e42e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventCode: 7
 --- !u!1 &1942749256
 GameObject:
   m_ObjectHideFlags: 0

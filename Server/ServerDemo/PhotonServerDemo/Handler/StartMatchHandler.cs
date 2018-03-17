@@ -153,6 +153,18 @@ namespace PhotonServerDemo.Handler
                 RoomBase temp_Room;
                 roomCacahe.dict_RoomList.TryRemove(roomId, out temp_Room);
             }
+            else
+            {
+                //通知其他玩家他退了
+                Dictionary<byte, object> data = new Dictionary<byte, object>();
+                data.Add((byte)ParameterCode.UserId, peer.loginUserId);
+                foreach (var c in room.ClientList)
+                {
+                    EventData ed = new EventData((byte)EventCode.Quit);
+                    ed.Parameters = data;
+                    c.SendEvent(ed, sendParameters);
+                }
+            }
         }
     }
 }

@@ -21,6 +21,13 @@ public class RoomFightRequest : RequestBase
         SingletonMono<PhotonManager>.Instance.Peer.OpCustom((byte)opCode, data, true);
     }
 
+    public void OnGameOverRequest()
+    {
+        Dictionary<byte, object> data = new Dictionary<byte, object>();
+        data.Add((byte)ParameterCode.RoomFight, OnRoomFight.GameOver);
+        SingletonMono<PhotonManager>.Instance.Peer.OpCustom((byte)opCode, data, true);
+    }
+
     public override void OnOperationResponse(OperationResponse operationResponse)
     {
         throw new NotImplementedException();

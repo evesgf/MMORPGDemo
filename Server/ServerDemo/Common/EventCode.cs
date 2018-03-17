@@ -18,6 +18,8 @@ namespace Common
         SyncPlayerData,
 
         NewPlayer,
-        SyncPosition
+        SyncPosition,
+
+        Quit
     }
 }
